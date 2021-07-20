@@ -1,0 +1,11 @@
+- title: Project 1
+  link: projects/projects-template.html
+  stage: scoping
+
+- title: Project 2
+  link: projects/projects-template.html
+  stage: scoping
+
+- title: Project 3
+  link: projects/projects-template.html
+  stage: complete

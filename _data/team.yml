@@ -1,0 +1,13 @@
+- name: Jonny Pearson
+  role: Lead Data Scientist
+  image: assets/Jonny.jpg # Can be external link
+  description: > # Can be Markdown
+  email: jonathan.pearson@nhsx.nhs.uk
+  github: JRPearson500
+
+- name: Daniel Schofield
+  role: Senior Data Scientist
+  image: assets/Anon.jpg # Can be external link
+  description: > # Can be Markdown
+  email: daniel.schofield@nhsx.nhs.uk
+  github: danjscho

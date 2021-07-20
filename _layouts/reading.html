@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Contents</h5>
+        <ul>
+            {% for topic in site.data.reading %}
+            {% assign item = topic[1] %}
+            <li><a href="#{{ topic[0] }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+   </div>
+</div>
+<hr>
+
+{% for topic in site.data.reading %}
+{% assign item = topic[1] %}
+
+<h3 id="{{topic[0]}}">{{ item.name }}</h3>
+
+<ul>
+{% for resource in item.list %}
+
+    <li>{% if resource.link %}<a href="{{ resource.link }}">{{ resource.name }}</a>{% else %} {{ resource.name }}{% endif %}</li>
+
+{% endfor %}
+</ul>
+
+{% endfor %}
+
+{{ content }}

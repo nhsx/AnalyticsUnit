@@ -1,0 +1,7 @@
+name: Python
+list:
+  - name: The Python Tutorial
+    link: https://docs.python.org/3/tutorial/index.html
+
+  - name: The Hitchhiker’s Guide to Python
+    link: https://docs.python-guide.org

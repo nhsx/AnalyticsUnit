@@ -1,0 +1,30 @@
+{% if page.background %}
+<div class="p-5 rounded-lg mt-5" style="background-image: url('{{ page.background | relative_url }}'); color: white">
+{% else %}
+  <div class="p-5 rounded-lg mt-5" style="background-color: rgb(1, 16, 155); color: white">
+{% endif %}
+
+      {% if page.logo %}
+<div class="p-5 rounded-lg mt-5" style="text-align: center;"> <img src="{{ page.logo | relative_url }}">
+{% else %}
+<h1 class="display-4" style="text-align: center; font-weight: 500;"><strong>{{ page.title }}</strong></h1>
+{% endif %}
+    <p class="lead" style="text-align: center;">{{ page.description}}</p>
+    {% if page.date %}
+    <p class="meta text-center">
+      <time>{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.author or page.authors %}
+        &bull; {{ page.author | join: ', ' }}{{ page.authors | join: ', ' }}
+      {% endif %}
+    </p>
+    {% endif %}
+
+    <div class="categories text-center">
+      {% if page.categories and site.archive_permalink %}
+        {% for category in page.categories %}
+        <a class="badge badge-pill" href="{{ site.archive_permalink | relative_url }}?category={{ category | url_encode }}">{{ category }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>

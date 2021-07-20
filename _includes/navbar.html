@@ -1,0 +1,30 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-1">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">{{ site.title | default: site.github.repository_name }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/' %} active{% endif %}" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/work.html' %} active{% endif %}" href="/work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/thinking.html' %} active{% endif %}" href="/thinking.html">Thinking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/team.html' %} active{% endif %}" href="/team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == '/howto.html' %} active{% endif %}" href="/howto.html">HowTo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">{{ site.description | default: site.github.project_tagline }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

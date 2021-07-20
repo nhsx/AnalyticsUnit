@@ -1,4 +1,3 @@
-# Title: 
-## Subtitle
+## Subtitle For technical detail of current work
 
-**Keywords:** word, word, word
+Layout copied from [gstt-csc](https://github.com/GSTT-CSC/gstt-csc.github.io)
