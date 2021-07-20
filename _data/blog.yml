@@ -1,7 +1,35 @@
 - title: Synthetic Data in Healthcare
   link: blogs/synthetic.html
   stage: thought_stream
+  image: assets/graph.jpg
+  description: Text which coneys meaning and interst
 
 - title: Trusted Research Environments
   link: blogs/Trusted-Research-Environments.html
   stage: interested
+  image: assets/Anon.jpg
+  description: Text which coneys meaning and interst
+
+- title: Trusted Research Environments 2
+  link: blogs/Trusted-Research-Environments.html
+  stage: interested
+  image: assets/Anon.jpg
+  description: Text which coneys meaning and interst
+
+- title: Trusted Research Environments 3
+  link: blogs/Trusted-Research-Environments.html
+  stage: interested
+  image: assets/Anon.jpg
+  description: Text which coneys meaning and interst
+
+- title: Trusted Research Environments 4
+  link: blogs/Trusted-Research-Environments.html
+  stage: interested
+  image: assets/Anon.jpg
+  description: Text which coneys meaning and interst
+
+- title: Trusted Research Environments 5
+  link: blogs/Trusted-Research-Environments.html
+  stage: interested
+  image: assets/Anon.jpg
+  description: Text which coneys meaning and interst

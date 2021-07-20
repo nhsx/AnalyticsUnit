@@ -1,12 +1,12 @@
 
-- name: scoping
+- name: Discovery
   limit:
 
-- name: developing
+- name: Delivery
   limit:
 
-- name: draft
+- name: Dissemination
   limit:
 
-- name: complete
+- name: Complete
   limit:

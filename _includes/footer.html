@@ -1,4 +1,4 @@
-<footer style="background-color: rgb(83, 81, 81); padding: 3rem; margin-top: 3rem">
+<footer style="background-color: rgb(145, 145, 145); padding: 3rem; margin-top: 3rem">
     <div class="container" >
       <div class="row">
         <div class="col-lg">
@@ -58,64 +58,10 @@
       </div>
   
       <div class="small mt-2">
-        {% if site.author %}
-          <p>© {{ site.author }}</p>
-        {% endif %}
-        {% if site.data.footer.license %}
-          {{ site.data.footer.license | markdownify }}
-        {% endif %}
+        <p class="copyright">
+          <b>DISCLAIMER</b> - This is not the official NHSX site but a store of technical documents and ongoing work from the NHSX analytics unit made for transparency and collaboration.  Opinions expressed in posts are not representative of the views of NHSX and any content here should <b>not</b> be regarded as official output in any form. For more information about NHSX please visit our official <a style="color: #CF3587" href="https://www.nhsx.nhs.uk/">website</a>.
+          </p>
+      <p class="copyright"><img src="/assets/1200px-UKOpenGovernmentLicence.svg.png" width="30" height="15"> © 2021 (<a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence</a> ≥ 3) 
       </div>
     </div>
-  <!--  {% if site.google_analytics %}-->
-  <!--    <script>-->
-  <!--      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
-  <!--      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
-  <!--      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
-  <!--      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
-  <!--      ga('create', '{{ site.google_analytics }}', 'auto');-->
-  <!--      ga('send', 'pageview');-->
-  <!--    </script>-->
-  <!--  {% endif %}-->
   </footer>
-  
-  <!--<script src="{{ '/assets/theme/js/jquery.min.js' | relative_url }}"></script>-->
-  <!--<script src="{{ '/assets/theme/js/popper.min.js' | relative_url }}"></script>-->
-  <!--<script src="{{ '/assets/theme/js/bootstrap.min.js' | relative_url }}"></script>-->
-  <!--<script src="{{ '/assets/theme/js/anchor.min.js' | relative_url }}"></script>-->
-  
-  <!--<script>-->
-  <!--  // Show anchors when hovering over headings, using anchor.js-->
-  <!--  (function () {-->
-  <!--    const headings = ".content h2[id], .content h3[id], .content h4[id], .content h5[id], .content h6[id]";-->
-  <!--    anchors.options = { placement: "right" };-->
-  <!--    anchors.add(headings);-->
-  <!--  })();-->
-  <!--</script>-->
-  
-  <!--{% if page.layout == 'archive' %}-->
-  <!--<script>-->
-  <!--  // Filter cards on ?category=value-->
-  <!--  $(document).ready(function() {-->
-  <!--    const urlParams = new URLSearchParams(window.location.search);-->
-  
-  <!--    if (urlParams.has("category") && urlParams.get("category") != "") {-->
-  <!--      const category = urlParams.get("category"); // Will return 1st category value + decode URI-->
-  <!--      const cleanCategory = $.trim(category.toLowerCase()); // Create category as written in .card data-categories-->
-  
-  <!--      $(".card").each(function() {-->
-  <!--        const cardCategories = $(this).data("categories").split("|");-->
-  <!--        // Hide card if it does not contain the selected category-->
-  <!--        if (!cardCategories.includes(cleanCategory)) {-->
-  <!--          $(this).parent().addClass("d-none");-->
-  <!--        }-->
-  <!--      });-->
-  
-  <!--      $(".jumbotron .categories").append(-->
-  <!--        '<a class="badge badge-pill" href="{{ site.archive_permalink | relative_url }}">' +-->
-  <!--        category + '<span class="close">&times;</span>' +-->
-  <!--        '</a>'-->
-  <!--      );-->
-  <!--    }-->
-  <!--  });-->
-  <!--</script>-->
-  <!--{% endif %}-->
