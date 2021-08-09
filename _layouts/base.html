@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include navbar.html %}
+
+    <script>
+        document.body.className = document.body.className
+          ? document.body.className + " js-enabled"
+          : "js-enabled";
+    </script>
+
+    <main>
+      
+      <div class="nhsuk-width-container">
+        <main class="nhsuk-main-wrapper" id="maincontent">
+          <div class="nhsuk-grid-row">
+            <div class="nhsuk-grid-column-full">{{ content }}</div>
+          </div>
+        </main>
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

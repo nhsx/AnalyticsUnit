@@ -1,13 +1,6 @@
 ---
-layout: nhsxuk_default
+layout: home
 title: Technical Storage
 description: Who we are
+background: _content/assets/graph.jpg
 ---
-
-{% include navbar.html %}
-
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
-
-Text
-
-<hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-6">
