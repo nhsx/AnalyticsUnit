@@ -1,6 +1,9 @@
 ---
+layout: base
 title: Synthetic Data in Health Overview
 ---
+
+<h2> {{page.title}} </h2>
 
 The analytics team in NHSX is currently conducting research into best practice and examples for generating synthetic healthcare data for the purpose of enabling greater data sharing across the system.   This work will progress through our PhD internship scheme as well as through collaborating and commissioning small proof of concepts to create shareable tools and guidance.  Our aim is to make this work open through our github account and the NHSX website.   
 

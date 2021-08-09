@@ -1,6 +1,9 @@
 ---
+layout: base
 title: Trusted Research Environments
 ---
+
+<h2> {{page.title}} </h2>
 
 See these resources and look out for upcoming guidance from the centre for improving data collaboration in NHSX
 * [Trusted Research Environments and data management – Past,Present and Future - April 2021](https://www.hdruk.ac.uk/wp-content/uploads/2021/04/Goldacre-Review-TRE-Response.pdf)
