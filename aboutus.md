@@ -1,5 +1,5 @@
 ---
-layout: nhsuk_transactional
+layout: base
 title: About Us
 description: Who we are
 ---

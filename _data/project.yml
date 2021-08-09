@@ -1,0 +1,31 @@
+- title: C235
+  link: https://github.com/nhsx/nhsx-internship-projects
+  stage: Dissemination
+  badge1: tagA 
+  badge2: tagB
+  badge3: tagC
+  description: This project is an example
+
+- title: C245
+  link: https://github.com/nhsx/nhsx-internship-projects
+  stage: Dissemination
+  badge1: tagA 
+  badge2: tagB
+  badge3: tagC
+  description: This project is an example
+
+- title: C250
+  link: https://github.com/nhsx/nhsx-internship-projects
+  stage: Complete
+  badge1: tagA 
+  badge2: tagB
+  badge3: tagC
+  description: This project is an example
+
+- title: C270
+  link: https://github.com/nhsx/nhsx-internship-projects
+  stage: Discovery
+  badge1: tagA 
+  badge2: tagB
+  badge3: tagC
+  description: This project is an example

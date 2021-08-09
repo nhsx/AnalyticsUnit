@@ -1,7 +1,7 @@
 ---
-layout: nhsuk_transactional
-title: Guidance
-description: Best Practice, Recommendations, etc..
+layout: thinking
+title: Thinking
+description: Thought Streams and recommendations
 ---
 
 <div class="card" style="width: 18rem;">

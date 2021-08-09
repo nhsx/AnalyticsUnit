@@ -1,0 +1,32 @@
+---
+layout: base
+description: Template for blogs
+---
+
+
+<div class="page-title">
+    <h1>Posts</h1>
+</div>
+<h3>Thought Pieces, Discussions and Interests</h3>
+<ul class="nhsuk-grid-row nhsuk-card-group">
+
+    {% for blog in site.data.thinking %}
+
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+            <div class="nhsuk-card nhsuk-card--clickable">
+                <img class="nhsuk-card__img" src={{blog.image}} alt="teaser"> 
+                <div class="nhsuk-card__content">
+                    <h2 class="nhsuk-card__heading nhsuk-heading-m">
+                        <a class="nhsuk-card__link" href="{{blog.link}}">{{blog.title}}</a>
+                    </h2>
+                    <p class="nhsuk-card__description">{{blog.description}}</p>
+                </div>
+            </div> 
+        </li>
+    
+    {% endfor %}
+
+</ul>    
+
+
+        

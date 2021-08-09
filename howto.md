@@ -1,11 +1,11 @@
 ---
-layout: nhsxuk_transactional
+layout: base
 title: How-to
 description: Instructions, SOPs and guides
 ---
 
 
-## <a name=update></a>**Update this website**
+## Update this website
 
 1. Install Ruby, Jekyll and Bundle on your system (See https://jekyllrb.com/docs/installation/macos/ for help and use homebrew)
 2. Clone <https://github.com/nhsx/AnalyticsUnit>
@@ -21,3 +21,8 @@ description: Instructions, SOPs and guides
 6. Commit your code and publish your branch to github
 7. On the Github website, make a new `Pull requests` 
 8. Ask another team member to review the PR and merged into the live website!
+
+
+## Add Team Members
+
+You can add/edit team members by defining them in `assests/team.yml`.

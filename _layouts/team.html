@@ -1,0 +1,57 @@
+---
+layout: base
+description: Template for team page
+---
+
+<ul class="list-inline">
+
+    {% for member in site.data.team %}
+
+        <li class="list-inline-item" style="padding: 1rem">
+        <div class="media team-member">
+        <img class="mr-3" src="{{ member.image | relative_url }}" width="200" height="200">
+        <div class="media-body">
+        <h5 id="{{ member.name | strip | url_encode }}">{{ member.name }}
+        </h5>
+        <h5 id="{{ member.role | strip | url_encode }}">
+        {% if member.role %}
+        <small class="text-muted">{{ member.role }}</small>
+        {% endif %}
+        </h5>
+
+        {{ member.description | markdownify }}
+
+        <ul class="list-inline">
+
+        {% if member.email %}
+        <li class="list-inline-item">
+            <a href="mailto:{{ member.email }}"><i class="fa fa-envelope"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.twitter %}
+        <li class="list-inline-item">
+            <a href="https://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.github %}
+        <li class="list-inline-item">
+            <a href="https://github.com/{{ member.github }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.orcid %}
+        <li class="list-inline-item">
+            <a href="https://orcid.org/{{ member.orcid }}"><img class="orcid" src="{{ '/assets/orcid.png' | relative_url }}" width="20" height="20"></a>
+        </li>
+        {% endif %}
+
+        </ul>
+    </div>
+    </div>
+</li>
+
+{% endfor %}
+
+</ul>

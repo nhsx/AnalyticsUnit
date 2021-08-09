@@ -12,16 +12,15 @@
           : "js-enabled";
     </script>
 
-    <main>
-      
-      <div class="nhsuk-width-container">
-        <main class="nhsuk-main-wrapper" id="maincontent">
+    <div class="nhsuk-grid-row" style="margin-top: 3rem"></div>
+
+    <div class="nhsuk-width-container">
+        <main class="nhsuk-main-wrapper" id="maincontent" role="main">
           <div class="nhsuk-grid-row">
             <div class="nhsuk-grid-column-full">{{ content }}</div>
           </div>
         </main>
-      </div>
-    </main>
+    </div>
 
     {% include footer.html %}
   </body>
