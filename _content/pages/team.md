@@ -1,5 +1,5 @@
 ---
-layout: team
+layout: nhsuk_transactional
 title: Team
 description: Who we are
 ---

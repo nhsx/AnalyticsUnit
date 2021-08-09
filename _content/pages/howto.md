@@ -1,5 +1,5 @@
 ---
-layout: howto
+layout: nhsxuk_transactional
 title: How-to
 description: Instructions, SOPs and guides
 ---

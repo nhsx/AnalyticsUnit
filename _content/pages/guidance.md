@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: nhsuk_transactional
 title: Guidance
 description: Best Practice, Recommendations, etc..
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project_description
+layout: nhsuk_transactional
 title: Work
 description: What we'll do, are doing, have done
 ---
