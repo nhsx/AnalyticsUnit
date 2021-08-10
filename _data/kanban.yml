@@ -1,11 +1,11 @@
-- name: Discovery
+- name: Complete
+  limit:
+  
+- name: Dissemination
   limit:
 
 - name: Delivery
   limit:
 
-- name: Dissemination
-  limit:
-
-- name: Complete
+- name: Discovery
   limit:
