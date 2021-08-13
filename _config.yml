@@ -3,5 +3,7 @@ title: NHSX-AU
 description: NHSX Analytics Unit
 email: analytics-unit@nhsx.nhs.uk
 github_username: nhsx
-baseurl: nhsx/AnalyticsUnit/
+url: https://nhsx.github.io
+baseurl: /analytics-unit/
+
 
