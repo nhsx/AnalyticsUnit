@@ -2,8 +2,7 @@
 layout: base 
 title: Technical Storage
 description: Who we are
-background: _content/assets/graph.jpg
-permalink: home
+permalink: 
 ---
 
 <h1>Welcome</h1>
