@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Synthetic Data in Health Overview
+permalink: thinking/synthetic
 ---
 
 <h2> {{page.title}} </h2>

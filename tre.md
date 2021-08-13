@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Trusted Research Environments
+permalink: thinking/tre
 ---
 
 <h2> {{page.title}} </h2>
