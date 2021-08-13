@@ -2,7 +2,7 @@
 layout: thinking
 title: Thinking
 description: Thought Streams and recommendations
-permalink: /thinking/
+permalink: thinking.html
 ---
 
 <div class="card" style="width: 18rem;">

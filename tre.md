@@ -1,7 +1,7 @@
 ---
 layout: base
 title: TrustedResearchEnvironments
-permalink: /trustedresearchenvironments/
+permalink: trustedresearchenvironments.html
 ---
 
 <h2> {{page.title}} </h2>
