@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Trusted Research Environments
-permalink: tre
+permalink: tre.html
 ---
 
 <h2> {{page.title}} </h2>
