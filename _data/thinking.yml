@@ -2,14 +2,14 @@
   link: synthetic.html
   stage: thought_stream
   image: assets/graph.jpg
-  description: Text which coneys meaning and interst
+  description: This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
   date: August 2021
 
-- title: Trusted Research Environments
-  link: tre.html
-  stage: interested
-  image: assets/Anon.jpg
-  description: Text which coneys meaning and interst
-  date: August 2021
+# - title: Trusted Research Environments
+#   link: tre.html
+#   stage: interested
+#   image: assets/Anon.jpg
+#   description: Text which coneys meaning and interst
+#   date: August 2021
 
 

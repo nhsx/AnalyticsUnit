@@ -59,8 +59,11 @@ Applicants will need:
 ### Timeline 
 
 Applications Open 		Early October
+
 Applications Close 		Early November
+
 Interviews 			    Late November
+
 Outcomes Communicated 	Early December
 
 ### How to Apply

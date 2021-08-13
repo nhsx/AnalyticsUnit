@@ -5,6 +5,7 @@
   badge2: Python
   badge3: Analytics
   description: Collecting statistics on open source NHS and healthcare related code repositories
+  author: Craig Senton
 
 - title: Digital Health Insights
   link: https://nhsx.github.io/digital-health-insights/
@@ -13,6 +14,7 @@
   badge2: Digital
   badge3: Analytics
   description: What can the 2021 GP Patient Survey tell us about access to online general practice services?
+  author: Mary Amanuel
 
 - title: Open Analytics Template
   link: https://nhsx.github.io/open-analytics-template/
@@ -21,6 +23,7 @@
   badge2: Python
   badge3: Github
   description: NHS.UK themed template for open analytics projects. Build your own open source end-to-end analytical tool using python, plotly, github.io, and github actions.
+  author: Craig Senton 
 
 - title: eLfH-PHM-RiskStrat
   link: https://github.com/nhsx/eLfH-PHM-RiskStrat
@@ -29,6 +32,7 @@
   badge2: Predcition
   badge3: Analytics
   description: Risk Prediction - A practical example in R to accompany the e-LfH module.
+  author: Martina Fonseca
 
 - title: NHS App Analytics Dashboard
   link: https://github.com/nhsx/nhs-app-analytics-dashboard
@@ -37,6 +41,7 @@
   badge2: NHS App
   badge3: Analytics
   description: The NHS App dashboard enables you to see how many patients are using the NHS App across England, and which features they are using. It can be accessed by anyone with an NHS email address.
+  author: Craig Shenton 
 
 - title: Social Care Connectivity Devices
   link: https://github.com/nhsx/social-care-connectivity-devices
@@ -45,6 +50,7 @@
   badge2: IPads
   badge3: Analytics
   description: NHSX led programme to procure and gift 11,000 (data-enabled) iPads to care homes in response to COVID-19.
+  author: Craig Senton
 
 - title: SynPath
   link: https://github.com/nhsx/SynPath
@@ -53,6 +59,7 @@
   badge2: Synthetic
   badge3: FHIR
   description: A library for generating synthetic electronic health records in FHIR v4 format using agent-based modeling to simulate patient pathways.
+  author: Jonny Pearson
 
 - title: Transform
   link: https://github.com/nhsx/transform
@@ -61,4 +68,5 @@
   badge2: b-spline
   badge3: linear
   description: Methodology to calculate impact of aging population on activity forecasts.
+  author: Jonny Pearson
 
