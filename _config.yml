@@ -1,6 +1,7 @@
 domain: nhsx.github.io
 url: https://nhsx.github.io
-baseurl: /AnalyticsUnit/
+baseurl: /AnalyticsUnit
+permalink: /:title
 title: NHSX-AU
 description: NHSX Analytics Unit
 email: analytics-unit@nhsx.nhs.uk
