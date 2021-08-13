@@ -2,7 +2,7 @@
 layout: base
 title: How-to
 description: Instructions, SOPs and guides
-permalink: /AnalyticsUnit/howto/
+permalink: /AnalyticsUnit/howto.html
 ---
 
 
