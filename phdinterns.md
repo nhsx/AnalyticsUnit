@@ -2,7 +2,7 @@
 layout: base
 title: Data Science Internships
 description: Connecting NHS and Academia
-permalink: phdinterns.html
+permalink: phdinterns/
 ---
 
 # {{page.title}}
