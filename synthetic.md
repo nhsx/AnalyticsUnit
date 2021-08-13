@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Synthetic Data in Health Overview
-permalink: synthetic.html
+permalink: /synthetic/
 ---
 
 <h2> {{page.title}} </h2>

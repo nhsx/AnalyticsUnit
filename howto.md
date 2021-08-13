@@ -2,6 +2,7 @@
 layout: base
 title: How-to
 description: Instructions, SOPs and guides
+permalink: /howto/
 ---
 
 
