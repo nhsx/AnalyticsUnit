@@ -1,29 +1,38 @@
+- title: The Prescribing Cost of Antibiotics
+  link: https://nhsx.github.io/antibiotic_cost/
+  stage: Delivery
+  badge1: Open Analytics
+  badge2: Open Prescribing
+  badge3: Python
+  description: Plotly chart and folium map visualizing the prescribing cost of the antibiotics Amoxicillin, Doxycycline Hyclate and Caefalexin for Clinical Commissioning Groups (CCGs)
+  author: Mattia Ficarelli
+
 - title: Open Healthcare Statistics
   link: https://nhsx.github.io/open-health-statistics/
-  stage: Delivery
-  badge1: Open 
-  badge2: Python
-  badge3: Analytics
-  description: Collecting statistics on open source NHS and healthcare related code repositories
-  author: Craig Senton
+  stage: Complete
+  badge1: Open Analytics
+  badge2: GitHub
+  badge3: Python
+  description: Collecting statistics on open-source NHS and healthcare related code repositories
+  author: Craig Shenton, Adam Ivison (NHS BSA), Arouba Zubair, Mary Amanuel
 
 - title: Digital Health Insights
   link: https://nhsx.github.io/digital-health-insights/
-  stage: Complete
-  badge1: GP Patient Survey 
-  badge2: Digital
-  badge3: Analytics
+  stage: Delivery
+  badge1: GP Patient Survey
+  badge2: Digital Health
+  badge3: Open Analytics
   description: What can the 2021 GP Patient Survey tell us about access to online general practice services?
-  author: Mary Amanuel
+  author: Mary Amanuel, Craig Shenton
 
 - title: Open Analytics Template
   link: https://nhsx.github.io/open-analytics-template/
   stage: Complete
-  badge1: Open 
-  badge2: Python
-  badge3: Github
+  badge1: Open Analytics
+  badge2: GitHub
+  badge3: Python
   description: NHS.UK themed template for open analytics projects. Build your own open source end-to-end analytical tool using python, plotly, github.io, and github actions.
-  author: Craig Senton 
+  author: Craig Shenton 
 
 - title: eLfH-PHM-RiskStrat
   link: https://github.com/nhsx/eLfH-PHM-RiskStrat
@@ -41,7 +50,7 @@
   badge2: NHS App
   badge3: Analytics
   description: The NHS App dashboard enables you to see how many patients are using the NHS App across England, and which features they are using. It can be accessed by anyone with an NHS email address.
-  author: Craig Shenton 
+  author: Arouba Zubair, Mary Amanuel
 
 - title: Social Care Connectivity Devices
   link: https://github.com/nhsx/social-care-connectivity-devices
@@ -50,7 +59,7 @@
   badge2: IPads
   badge3: Analytics
   description: NHSX led programme to procure and gift 11,000 (data-enabled) iPads to care homes in response to COVID-19.
-  author: Craig Senton
+  author: Craig Shenton
 
 - title: SynPath
   link: https://github.com/nhsx/SynPath
