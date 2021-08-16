@@ -131,8 +131,8 @@ Some tests for privacy include:
 * **Uniqueness:** Combinations of values within the data (similar to the l-diversity model).  Some algorithms may force unique records to re-create the outlier!
 * **Can I find me?:** Practical test to see how much information a user would need to find a known subject 
 
-Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here but instead refer the reader to some good reading and examples in the area
-An excellent set of resources, active research programme and guidance can be found at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/)
+Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here but instead refer the reader to some good reading and examples in the area.
+An excellent set of resources, active research programme and guidance can be found at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/).
 
 [SmartNoise](https://github.com/opendp/smartnoise-core) - A pluggable open source library of differentially private algorithms and mechanisms for releasing privacy preserving queries and statistics, as well as APIs for defining an analysis and a validator for evaluating these analyses and composing the total privacy loss on a dataset.
 
