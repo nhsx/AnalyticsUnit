@@ -3,13 +3,15 @@
   stage: thought_stream
   image: assets/graph.jpg
   description: This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
+  author: Jonny Pearson
   date: August 2021
 
-# - title: Trusted Research Environments
-#   link: tre.html
-#   stage: interested
-#   image: assets/Anon.jpg
-#   description: Text which coneys meaning and interst
-#   date: August 2021
+- title: OpenSafely and NHSX - Learning from the first collaboration
+  link: openSafely_learning.html
+  stage: interested
+  image: assets/OpenSafelyLogo.jpg
+  description: This blog highlights learnings from onboarding NHSX data scientists into the OpenSafely framework (covering work from Oct-20 till Jan-21)  
+  author: Jonny Pearson
+  date: August 2021
 
 

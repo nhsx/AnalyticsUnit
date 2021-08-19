@@ -164,31 +164,41 @@ Please see the contact us section to let us know of further work
 
 ### Datasets 
 [The Simulacrum - healthdatainsight.org.uk](https://healthdatainsight.org.uk/project/the-simulacrum/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Chi-Squared
 
 The Simulacrum is a dataset that contains artificial patient-like cancer data to help researchers gain insights. The Simulacrum imitates some of the data held securely by the Public Health England’s National Cancer Registration and Analysis Service. The data is synthetic and does not contain any information about real patients. It is free to use and allows anyone who wants to use record-level cancer data to do so, safe in the knowledge that while the data 
 
 [Synthetic data | CPRD](https://www.cprd.com/content/synthetic-data)
+
 Fidelity = high
+
 Technique = Probabilistic Model - Bayesian Network
 
 CPRD has generated high-fidelity synthetic datasets using a synthetic data generation and evaluation framework 
 
 [SynAE](https://data.england.nhs.uk/dataset/a-e-synthetic-data)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Bayesian Network
 
 The synthetic A&E extract, “SynAE”, is the result of an NHS England pilot project to widen data sharing without loss of privacy for patients.
 
 [64 Generating synthetic electronic patient records](https://adc.bmj.com/content/104/Suppl_4/A25.3)
+
 Fidelity = High
+
 Technique = Generative algorithms
 
 The GOSH DRE team have worked with collaborators in UCL and NHS Digital to develop generative statistical and deep learning (AI) models that learn the structure and statistical properties of EPR data. These models have the capability to generate synthetic EPR data without reproducing individual patient records. To facilitate this work, de-identified EPR data from all patients treated at GOSH between January 2016 and January 2019 were extracted from the DRE data lake and modelled using the PyTorch, TensorFlow, and Scikit learn Python libraries.
 
 [MIMIC-III Clinical Database v1.4](https://physionet.org/content/mimiciii/1.4/)
+
 Fidelity = High
+
 Technique = Data Erosion
 
 MIMIC-III is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (including post-hospital discharge).
@@ -197,32 +207,42 @@ MIMIC-III is a large, freely-available database comprising deidentified health-r
 ### Tools
 
 [Synthetic LS data :: CALLS-HUB](https://calls.ac.uk/guides-resources/synthetic-ls-data/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 The datasets contain synthetic data based on the ONS Longitudinal Study for England and Wales (ONS LS), the Scottish Longitudinal Study (SLS) and the Northern Ireland Longitudinal Study (NILS) and do not contain real ONS LS, SLS or NILS data. The synthetic datasets have been developed for teaching purposes and for researchers to familiarise themselves with longitudinal data..  Uses synthpop and proportional fitting algorithm to generate the data.
 
 [synthetichealth/synthea: Synthetic Patient Population Simulator](https://github.com/synthetichealth/synthea)
+
 Fidelity = Medium
+
 Technique = Simulation - Use of clinical practice guidelines (CPGs) or clinical pathways
 
 SyntheaTM is a synthetic patient generator that models the medical history of synthetic patients. Our mission is to output high-quality synthetic, realistic but not real, patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions.  There is a international setup repo with an example for shrewsbury. [Link](https://github.com/synthetichealth/synthea/wiki/Other-Areas#abridged-example-for-shrewsbury-shropshire-united-kingdom)
 
 
 [synthetichealth/syntheticmass](https://github.com/synthetichealth/syntheticmass)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 The synthetic population aims to statistically mirrors the real population in terms of demographics, disease burden, vaccinations, medical visits, and social determinants. SyntheticMass establishes a risk-free environment for experimenting with large-scale HL7 FHIR® data.
 
 [SynSys: A Synthetic Data Generation System for Healthcare Applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6427177/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Markov models and Regressions to generate independent marginals.
 
 A machine learning-based synthetic data generation method. We use this method to generate synthetic time series data that is composed of nested sequences using hidden Markov models and regression models which are initially trained on real datasets. We test our synthetic data generation technique on a real annotated smart home dataset. We use time series distance measures as a baseline to determine how realistic the generated data is compared to real data and demonstrate that SynSys produces more realistic data in terms of distance compared to random data generation, data from another home, and data from another time period.
 
 [google/simhospital](https://github.com/google/simhospital)
+
 Fidelity = Medium - depends on the details in the defined pathways
+
 Technique = Simulation - Use of clinical practice guidelines (CPGs) or clinical pathways
 
 The basic behavior of Simulated Hospital can be summarized as follows:
@@ -233,26 +253,34 @@ The basic behavior of Simulated Hospital can be summarized as follows:
 * When events run, they generate HL7v2 messages.
 
 [SDS-Architect/Synthetic_Data_System: The Alpha Build of the SDS for ideas gathering, testing and commentary](https://github.com/SDS-Architect/Synthetic_Data_System)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 Healthcare specific generator - uses a mixture of traditional probability sampling, machine learning and noise injection safety methods.
 
 [The Synthetic Data Vault. Put synthetic data to work!](https://sdv.dev/)
+
 Fidelity = Medium
+
 Technique = Range
 
 A number of open-source libraries, tutorials and other useful resources
 
 [nhsx/SynPath: Proof Of Concept - Open Patient Pathway Generator using and an agent based approach](https://github.com/nhsx/SynPath)
+
 Fidelity = Medium
+
 Technique = Agent Based SImulation
 
 *Currently at Proof Of Concept Stage*
 Open Patient Pathway Generator using and an agent based approach
 
 [BorealisAI/private-data-generation: A toolbox for differentially private data generation](https://github.com/BorealisAI/private-data-generation)
+
 Fidelity = High
+
 Technique = Range of Generative techniques
 
 Users can benchmark the models on the existing datasets or feed a new sensitive dataset as an input and get a synthetic dataset as the output which can be distributed to third parties with strong differential privacy guarantees.
