@@ -17,7 +17,7 @@ This blog highlights what the NHSX team learned during the first three months of
 
 ## Interest/Motivation
 
-At NHSX, we had several reasons to be intrigued by the OpenSAFELY platform.  The primary interest was to support analysis by NHS England and Improvement of Covid-19 in primary care records.  However, there is a wider strategic interest in the OpenSAFELY approach to sensitive data.   Finally, this was also an learning opportunity to work with an experienced team on a set of tools and a novel approach to securely handling healthcare data.  
+At NHSX, we had several reasons to be intrigued by the OpenSAFELY platform.  The primary interest was to support analysis by NHS England and Improvement of Covid-19 in primary care records.  However, there is a wider strategic interest in the OpenSAFELY approach to sensitive data.   Finally, this was also a learning opportunity to work with an experienced team on a set of tools and a novel approach to securely handling healthcare data.  
 
 ## October: initial exploration
 
@@ -43,7 +43,7 @@ At NHSX, we had several reasons to be intrigued by the OpenSAFELY platform.  The
 *Hurdle: Choosing an initial use case that allows for learning but also fits into appropriate use of the data* \\
 *Learning/Change: At first, keep the analysis simple with high level outputs in order to focus on understanding the framework rather than getting caught in information governance issues around complex analysis producing low numbers or disclosive outputs.*
 
-**Working with Primary Care Data**: Data collected through electronic health recordscontains sensitive private information for everyone and thus, quite rightly, safeguarded in the NHS.  This means that even as an NHS analyst of six years I’d never had access to primary care records.  I, like many other potential users, have little experience of working with the specific primary care records and more importantly being aware of the coding intricacies involved.   This has in many ways been the steepest learning experience and one where we’ve had to heavily rely on the experience of the Datalab team for direction to help stop us from going down multiple dead ends.   
+**Working with Primary Care Data**: Data collected through electronic health records contains sensitive private information for everyone and thus, quite rightly, safeguarded in the NHS.  This means that even as an NHS analyst of six years I’d never had access to primary care records.  I, like many other potential users, have little experience of working with the specific primary care records and more importantly being aware of the coding intricacies involved.   This has in many ways been the steepest learning experience and one where we’ve had to heavily rely on the experience of the Datalab team for direction to help stop us from going down multiple dead ends.   
 
 *Hurdle: Primary care coding requires a great deal of background knowledge* \\
 *Learning/Change: The OpenSAFELY team created a [YouTube video](https://youtu.be/NEwSQ5-dWSg) to highlight some of the specific issues to be aware of when conducting analysis in OpenSAFELY*
