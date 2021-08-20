@@ -5,6 +5,34 @@ description: Instructions, SOPs and guides
 permalink: howto.html
 ---
 
+## Review Policy for adding content
+- Only public github repos are to be added as projects.
+- Only the related individual to update their team content.
+- All "content" needs to go through an offline gateway (as creating a branch is still public) before pushing work to Github.
+  - This gateway is currently a G-Drive folder in the Analytics Unit folders.
+  - Add content as a google doc.
+  - A content review (see below) is required by another member of the team before progressing the content to github.
+- When the branch is published, create a pull request with another member of the team as a reviewer to conduct a technical review focussed on the interaction with the website.
+
+**Content Review** (focus on ensuring the content is accurate, appropriate and clear)
+- No non-public insights.
+- If opinion/experience piece this needs to be clear at the start.
+- Clear reference to other work and contributions?
+- Are there any sensitive issues or potential fallout?
+- Are any statements likely to reflect badly on the NHS or impact public trust?
+- Is the content focussed on the topic?
+- Are there other stakeholders that need to be informed or included?
+- Are any statements incorrect?
+- Are statements backed up with evidence?
+- Are there other stakeholders that need to be informed or included?
+
+**Technical Review** (focus on appearance on the webiste)
+- No data (unless public {in which case reference data rather than copying} or fake/synthetic) or sensitive strings. 
+- Working Links?
+- Content appearing as expected?
+- Content in line with Digital service manual where possible?
+- Markdown formatting correct?
+- Assest added and linked?
 
 ## Update this website
 
@@ -19,9 +47,10 @@ permalink: howto.html
       </div>
    
 5. Make changes to your code using your IDE.  Save and refresh the page to see the changes locally.
-6. Once happy, commit your code and publish your branch
-7. On Github, make a new `Pull requests`
-8. Ask another team member to review the PR and merged into the live website!
+6. If required, submit content to internal gateway and await content review
+7. Once happy, commit your code and publish your branch
+8. On Github, make a new `Pull requests`
+9. Ask another team member to review the PR and merged into the live website!
 
 **Alternatively**, for small changes such as the addtions listed below, you can ammend the ymls and add assets/markdowns directly on github but please do this within a branch and pull rather than direct to the main.
 
