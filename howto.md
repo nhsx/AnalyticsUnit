@@ -16,7 +16,7 @@ permalink: howto.html
 
 **Content Review** (focus on ensuring the content is accurate, appropriate and clear)
 - No non-public insights.
-- If opinion/experience piece this needs to be clear at the start.
+- If an opinion/experience piece this needs to be clear at the start.
 - Clear reference to other work and contributions?
 - Are there any sensitive issues or potential fallout?
 - Are any statements likely to reflect badly on the NHS or impact public trust?
@@ -26,13 +26,13 @@ permalink: howto.html
 - Are statements backed up with evidence?
 - Are there other stakeholders that need to be informed or included?
 
-**Technical Review** (focus on appearance on the webiste)
+**Technical Review** (focus on appearance on the website)
 - No data (unless public {in which case reference data rather than copying} or fake/synthetic) or sensitive strings. 
 - Working Links?
 - Content appearing as expected?
-- Content in line with Digital service manual where possible?
-- Markdown formatting correct?
-- Assest added and linked?
+- Content in line with the Digital service manual where possible?
+- Is markdown formatting correct?
+- Assets added and linked?
 
 ## Update this website
 
