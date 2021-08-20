@@ -64,7 +64,7 @@ NHSX are currently reviewing the use of variational autoencoders combined with d
 
 This paper includes a good overview of a variety of probabilistic and generative techniques: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1)
 
-This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).
+This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).  This [BAE systems paper](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908629/ASC_0259_Study3_FinalReport_v1_2.pdf) also has a good literature review for applied GANs.
  
 <hr>
 <br>
@@ -108,6 +108,8 @@ There are a few tests available for testing how much of the original value remai
 * Running two statistical/machine learning models related to the end use-case on the raw and synthetic data to compare the resultant summary statistics 
 
 The Synthetic Data Vault project has a section on [Evaluation Framework](https://sdv.dev/SDV/user_guides/evaluation/evaluation_framework.html) built in python which includes a small suite of functions which can be viewed separately or aggregated to give an overall score for the synthetic data.  These functions include some of the statistical tests above as well as likelihood and detection metrics which compare the real and synthetic data when probabilistic and machine learning models are applied.  This implementation is available for single data tables, multi table situations and time series data. 
+
+The previously mentioned [BAE systems paper](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908629/ASC_0259_Study3_FinalReport_v1_2.pdf) creates a framework with a range of defined metrics dependent on the data being tested as well as testing DP-GANs, SDV and Presidio as 
 <br>
 
 ### Privacy
@@ -131,8 +133,7 @@ Some tests for privacy include:
 * **Uniqueness:** Combinations of values within the data (similar to the l-diversity model).  Some algorithms may force unique records to re-create the outlier!
 * **Can I find me?:** Practical test to see how much information a user would need to find a known subject 
 
-Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here but instead refer the reader to some good reading and examples in the area
-An excellent set of resources, active research programme and guidance can be found at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/)
+Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here, but instead we refer the reader to an excellent set of resources and active research programme at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/).
 
 [SmartNoise](https://github.com/opendp/smartnoise-core) - A pluggable open source library of differentially private algorithms and mechanisms for releasing privacy preserving queries and statistics, as well as APIs for defining an analysis and a validator for evaluating these analyses and composing the total privacy loss on a dataset.
 
@@ -164,31 +165,41 @@ Please see the contact us section to let us know of further work
 
 ### Datasets 
 [The Simulacrum - healthdatainsight.org.uk](https://healthdatainsight.org.uk/project/the-simulacrum/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Chi-Squared
 
-The Simulacrum is a dataset that contains artificial patient-like cancer data to help researchers gain insights. The Simulacrum imitates some of the data held securely by the Public Health England’s National Cancer Registration and Analysis Service. The data is synthetic and does not contain any information about real patients. It is free to use and allows anyone who wants to use record-level cancer data to do so, safe in the knowledge that while the data 
+The Simulacrum is a dataset that contains artificial patient-like cancer data to help researchers gain insights. The Simulacrum imitates some of the data held securely by the Public Health England’s National Cancer Registration and Analysis Service. The data is synthetic and does not contain any information about real patients. It is free to use and allows anyone who wants to use record-level cancer data to do so, safe in the knowledge that while the data feels like the real thing, there is no danger of breaching patient confidentiality. 
 
 [Synthetic data | CPRD](https://www.cprd.com/content/synthetic-data)
+
 Fidelity = high
+
 Technique = Probabilistic Model - Bayesian Network
 
 CPRD has generated high-fidelity synthetic datasets using a synthetic data generation and evaluation framework 
 
 [SynAE](https://data.england.nhs.uk/dataset/a-e-synthetic-data)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Bayesian Network
 
 The synthetic A&E extract, “SynAE”, is the result of an NHS England pilot project to widen data sharing without loss of privacy for patients.
 
 [64 Generating synthetic electronic patient records](https://adc.bmj.com/content/104/Suppl_4/A25.3)
+
 Fidelity = High
+
 Technique = Generative algorithms
 
 The GOSH DRE team have worked with collaborators in UCL and NHS Digital to develop generative statistical and deep learning (AI) models that learn the structure and statistical properties of EPR data. These models have the capability to generate synthetic EPR data without reproducing individual patient records. To facilitate this work, de-identified EPR data from all patients treated at GOSH between January 2016 and January 2019 were extracted from the DRE data lake and modelled using the PyTorch, TensorFlow, and Scikit learn Python libraries.
 
 [MIMIC-III Clinical Database v1.4](https://physionet.org/content/mimiciii/1.4/)
+
 Fidelity = High
+
 Technique = Data Erosion
 
 MIMIC-III is a large, freely-available database comprising deidentified health-related data associated with over forty thousand patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The database includes information such as demographics, vital sign measurements made at the bedside (~1 data point per hour), laboratory test results, procedures, medications, caregiver notes, imaging reports, and mortality (including post-hospital discharge).
@@ -197,32 +208,42 @@ MIMIC-III is a large, freely-available database comprising deidentified health-r
 ### Tools
 
 [Synthetic LS data :: CALLS-HUB](https://calls.ac.uk/guides-resources/synthetic-ls-data/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 The datasets contain synthetic data based on the ONS Longitudinal Study for England and Wales (ONS LS), the Scottish Longitudinal Study (SLS) and the Northern Ireland Longitudinal Study (NILS) and do not contain real ONS LS, SLS or NILS data. The synthetic datasets have been developed for teaching purposes and for researchers to familiarise themselves with longitudinal data..  Uses synthpop and proportional fitting algorithm to generate the data.
 
 [synthetichealth/synthea: Synthetic Patient Population Simulator](https://github.com/synthetichealth/synthea)
+
 Fidelity = Medium
+
 Technique = Simulation - Use of clinical practice guidelines (CPGs) or clinical pathways
 
 SyntheaTM is a synthetic patient generator that models the medical history of synthetic patients. Our mission is to output high-quality synthetic, realistic but not real, patient data and associated health records covering every aspect of healthcare. The resulting data is free from cost, privacy, and security restrictions.  There is a international setup repo with an example for shrewsbury. [Link](https://github.com/synthetichealth/synthea/wiki/Other-Areas#abridged-example-for-shrewsbury-shropshire-united-kingdom)
 
 
 [synthetichealth/syntheticmass](https://github.com/synthetichealth/syntheticmass)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 The synthetic population aims to statistically mirrors the real population in terms of demographics, disease burden, vaccinations, medical visits, and social determinants. SyntheticMass establishes a risk-free environment for experimenting with large-scale HL7 FHIR® data.
 
 [SynSys: A Synthetic Data Generation System for Healthcare Applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6427177/)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Markov models and Regressions to generate independent marginals.
 
 A machine learning-based synthetic data generation method. We use this method to generate synthetic time series data that is composed of nested sequences using hidden Markov models and regression models which are initially trained on real datasets. We test our synthetic data generation technique on a real annotated smart home dataset. We use time series distance measures as a baseline to determine how realistic the generated data is compared to real data and demonstrate that SynSys produces more realistic data in terms of distance compared to random data generation, data from another home, and data from another time period.
 
 [google/simhospital](https://github.com/google/simhospital)
+
 Fidelity = Medium - depends on the details in the defined pathways
+
 Technique = Simulation - Use of clinical practice guidelines (CPGs) or clinical pathways
 
 The basic behavior of Simulated Hospital can be summarized as follows:
@@ -233,26 +254,34 @@ The basic behavior of Simulated Hospital can be summarized as follows:
 * When events run, they generate HL7v2 messages.
 
 [SDS-Architect/Synthetic_Data_System: The Alpha Build of the SDS for ideas gathering, testing and commentary](https://github.com/SDS-Architect/Synthetic_Data_System)
+
 Fidelity = Medium
+
 Technique = Probabilistic Model - Sampling from independent marginals
 
 Healthcare specific generator - uses a mixture of traditional probability sampling, machine learning and noise injection safety methods.
 
 [The Synthetic Data Vault. Put synthetic data to work!](https://sdv.dev/)
+
 Fidelity = Medium
+
 Technique = Range
 
 A number of open-source libraries, tutorials and other useful resources
 
 [nhsx/SynPath: Proof Of Concept - Open Patient Pathway Generator using and an agent based approach](https://github.com/nhsx/SynPath)
+
 Fidelity = Medium
+
 Technique = Agent Based SImulation
 
 *Currently at Proof Of Concept Stage*
 Open Patient Pathway Generator using and an agent based approach
 
 [BorealisAI/private-data-generation: A toolbox for differentially private data generation](https://github.com/BorealisAI/private-data-generation)
+
 Fidelity = High
+
 Technique = Range of Generative techniques
 
 Users can benchmark the models on the existing datasets or feed a new sensitive dataset as an input and get a synthetic dataset as the output which can be distributed to third parties with strong differential privacy guarantees.
