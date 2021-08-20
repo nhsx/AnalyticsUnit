@@ -5,7 +5,9 @@ permalink: openSafely_learning.html
 ---
 
 <h2> {{page.title}} </h2>
-<h4> Feb-21 (covering work from Oct-20 till Jan-21) </h4>
+<h4> Written Feb-21 (Covering work from Oct-20 till Jan-21)</h4>
+
+*note: as the open Safely framework is continually developing, some of the technical detail and issues discussed here may be out of date*
 
 The OpenSAFELY platform was created to support reproducible, privacy-first, best practice healthcare analytics for a wide range of users at the outset of the COVID-19 pandemic.
 
