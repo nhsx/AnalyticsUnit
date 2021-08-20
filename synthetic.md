@@ -64,7 +64,7 @@ NHSX are currently reviewing the use of variational autoencoders combined with d
 
 This paper includes a good overview of a variety of probabilistic and generative techniques: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1)
 
-This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).  This [BAE systems paper](https://nhsxtech.atlassian.net/wiki/spaces/KR/pages/1789362054/High-Level+view) also has a good literature review for applied GANs.
+This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).  This [BAE systems paper](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908629/ASC_0259_Study3_FinalReport_v1_2.pdf) also has a good literature review for applied GANs.
  
 <hr>
 <br>
@@ -109,7 +109,7 @@ There are a few tests available for testing how much of the original value remai
 
 The Synthetic Data Vault project has a section on [Evaluation Framework](https://sdv.dev/SDV/user_guides/evaluation/evaluation_framework.html) built in python which includes a small suite of functions which can be viewed separately or aggregated to give an overall score for the synthetic data.  These functions include some of the statistical tests above as well as likelihood and detection metrics which compare the real and synthetic data when probabilistic and machine learning models are applied.  This implementation is available for single data tables, multi table situations and time series data. 
 
-The previously mentioned [BAE systems paper](https://nhsxtech.atlassian.net/wiki/spaces/KR/pages/1789362054/High-Level+view) creates a framework with a range of defined metrics dependent on the data being tested as well as testing DP-GANs, SDV and Presidio as 
+The previously mentioned [BAE systems paper](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908629/ASC_0259_Study3_FinalReport_v1_2.pdf) creates a framework with a range of defined metrics dependent on the data being tested as well as testing DP-GANs, SDV and Presidio as 
 <br>
 
 ### Privacy
