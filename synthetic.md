@@ -170,7 +170,7 @@ Fidelity = Medium
 
 Technique = Probabilistic Model - Chi-Squared
 
-The Simulacrum is a dataset that contains artificial patient-like cancer data to help researchers gain insights. The Simulacrum imitates some of the data held securely by the Public Health England’s National Cancer Registration and Analysis Service. The data is synthetic and does not contain any information about real patients. It is free to use and allows anyone who wants to use record-level cancer data to do so, safe in the knowledge that while the data 
+The Simulacrum is a dataset that contains artificial patient-like cancer data to help researchers gain insights. The Simulacrum imitates some of the data held securely by the Public Health England’s National Cancer Registration and Analysis Service. The data is synthetic and does not contain any information about real patients. It is free to use and allows anyone who wants to use record-level cancer data to do so, safe in the knowledge that while the data feels like the real thing, there is no danger of breaching patient confidentiality. 
 
 [Synthetic data | CPRD](https://www.cprd.com/content/synthetic-data)
 
