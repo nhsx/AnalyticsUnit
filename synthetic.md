@@ -64,7 +64,7 @@ NHSX are currently reviewing the use of variational autoencoders combined with d
 
 This paper includes a good overview of a variety of probabilistic and generative techniques: [Generation and evaluation of synthetic patient data](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-020-00977-1)
 
-This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).
+This ONS working paper is a good example of implementing GANs, VAEs and SMOTE: [Synthetic data for public good](https://datasciencecampus.ons.gov.uk/projects/synthetic-data-for-public-good/).  This [BAE systems paper](https://nhsxtech.atlassian.net/wiki/spaces/KR/pages/1789362054/High-Level+view) also has a good literature review for applied GANs.
  
 <hr>
 <br>
@@ -108,6 +108,8 @@ There are a few tests available for testing how much of the original value remai
 * Running two statistical/machine learning models related to the end use-case on the raw and synthetic data to compare the resultant summary statistics 
 
 The Synthetic Data Vault project has a section on [Evaluation Framework](https://sdv.dev/SDV/user_guides/evaluation/evaluation_framework.html) built in python which includes a small suite of functions which can be viewed separately or aggregated to give an overall score for the synthetic data.  These functions include some of the statistical tests above as well as likelihood and detection metrics which compare the real and synthetic data when probabilistic and machine learning models are applied.  This implementation is available for single data tables, multi table situations and time series data. 
+
+The previously mentioned [BAE systems paper](https://nhsxtech.atlassian.net/wiki/spaces/KR/pages/1789362054/High-Level+view) creates a framework with a range of defined metrics dependent on the data being tested as well as testing DP-GANs, SDV and Presidio as 
 <br>
 
 ### Privacy
@@ -131,8 +133,7 @@ Some tests for privacy include:
 * **Uniqueness:** Combinations of values within the data (similar to the l-diversity model).  Some algorithms may force unique records to re-create the outlier!
 * **Can I find me?:** Practical test to see how much information a user would need to find a known subject 
 
-Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here but instead refer the reader to some good reading and examples in the area
-An excellent set of resources, active research programme and guidance can be found at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/)
+Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here, but instead we refer the reader to an excellent set of resources and active research programme at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/)
 
 [SmartNoise](https://github.com/opendp/smartnoise-core) - A pluggable open source library of differentially private algorithms and mechanisms for releasing privacy preserving queries and statistics, as well as APIs for defining an analysis and a validator for evaluating these analyses and composing the total privacy loss on a dataset.
 
