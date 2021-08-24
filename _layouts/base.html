@@ -12,12 +12,27 @@
           : "js-enabled";
     </script>
 
+    
+
     <div class="nhsuk-grid-row" style="margin-top: 6rem"></div>
 
     <div class="nhsuk-width-container">
         <main class="nhsuk-main-wrapper" id="maincontent" role="main">
           <div class="nhsuk-grid-row">
-            <div class="nhsuk-grid-column-full">{{ content }}</div>
+            <div class="nhsuk-grid-column-full">
+              
+              <div class="nhsuk-warning-callout">
+                <h3 class="nhsuk-warning-callout__label">
+                  <span role="text">
+                    <span class="nhsuk-u-visually-hidden">Important: </span>
+                    Disclaimer
+                  </span>
+                </h3>
+                <p>This is not the official NHSX site but a store of technical documents and ongoing work from the NHSX analytics unit made for transparency and collaboration.  Opinions expressed in posts are not representative of the views of NHSX and any content here should <b>not</b> be regarded as official output in any form. For more information about NHSX please visit our official <a style="color: #CF3587" href="https://www.nhsx.nhs.uk/">website</a></p>
+              </div>
+              
+              {{ content }}
+            </div>
           </div>
         </main>
     </div>
