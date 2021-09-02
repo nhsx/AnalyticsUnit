@@ -9,3 +9,9 @@
   image: assets/Anon.jpg # Can be external link
   email: daniel.schofield@nhsx.nhs.uk
   github: danjscho
+
+- name: Mary Amanuel
+  role: Data Analyst
+  image: assets/Mary.Amanuel.jpg # Can be external link
+  email: mary.amanuel@nhsx.nhs.uk
+  github: maryamanuelnhsx 
