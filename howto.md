@@ -36,14 +36,14 @@ permalink: howto.html
 
 ## Update this website
 
-1. Install Ruby, Jekyll and Bundle on your system (See https://jekyllrb.com/docs/installation/macos/ for help and use homebrew)
+1. Install Ruby, Jekyll and Bundle on your system (For Mac see https://jekyllrb.com/docs/installation/macos/ for help and use homebrew; For Windows see https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows.html)
 2. Clone <https://github.com/nhsx/AnalyticsUnit>
 2. Create a new branch
 3. In ther terminal, navigate to the repo folder and execute `bundle`
 4. Execute `bundle exec jekyll serve`
    
       <div class="alert alert-success" role="alert">
-        The website should be available locally on `http://localhost:4000` now
+        The website should be available locally on `http://localhost:4000` now, or on the Server Address provided on the terminal
       </div>
    
 5. Make changes to your code using your IDE.  Save and refresh the page to see the changes locally.

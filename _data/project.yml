@@ -41,7 +41,7 @@
   badge2: Predcition
   badge3: Analytics
   description: Risk Prediction - A practical example in R to accompany the e-LfH module.
-  author: Martina Fonseca
+  author: Matthew Francis (PHE) and Martina Fonseca
 
 - title: NHS App Analytics Dashboard
   link: https://github.com/nhsx/nhs-app-analytics-dashboard
