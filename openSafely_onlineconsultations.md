@@ -6,18 +6,13 @@ permalink: openSafely_onlineconsultations.html
 
 <h2> {{page.title}} </h2>
 
-**Date:** September 2021 (Covering work from Jan-21 till Jun-21)
-
-**Post author:** Martina Fonseca - Senior Analyst, NHSX
-
-**Research team:** NHSX Analytics Unit, NHSE/I Digital First Primary Care - in collaboration with OpenSAFELY
-
+**Date:** September 2021 (Covering work from Jan-21 till Jun-21)\\
+**Post author:** Martina Fonseca - Senior Analyst, NHSX\\
+**Research team:** NHSX Analytics Unit, NHSE/I Digital First Primary Care - in collaboration with OpenSAFELY\\
 **Git repository:** [opensafely/OS_OC_v001-research](https://github.com/opensafely/OS_OC_v001-research) (to be made open)
 
-*note 1: this study and its outputs have been approved by NHSE/I as meeting the stated project purpose - including open release* 
-
-*note 2: as the open Safely framework is continually developing, some of the technical detail and issues discussed here may be out of date*
-
+*note 1: this study and its outputs have been approved by NHSE/I as meeting the stated project purpose - including open release* \\
+*note 2: as the open Safely framework is continually developing, some of the technical detail and issues discussed here may be out of date*\\
 *note 3: the work carried out was a collaboration between NHSX AU, NHSE/I Digital First Primary Care and OpenSAFELY but the narrative in this piece is personal rather than organisational*
 
 ## OpenSAFELY
@@ -102,649 +97,68 @@ More than anything, this project was a great opportunity to collaborate and lear
 
 **Figure 1. Portion of practices with any recorded activity for online consultation relevant codes in general practice (January 2019 -  December 2020). Codes with no activity at all omitted. Only for practices using the TPP supplier system**
 <br>
-![Barchart showing portion of TPP practices that have a certain online-consultation relevant code recorded](/assets/sc03_fig05_pracnatcoverage_REWORKED.png){:height="700px" }
+<p align="center">
+  <img height="700" src="assets/sc03_fig05_pracnatcoverage_REWORKED.png">
+</p>
 
 **Figure 2. Monthly code instance rates per 1,000 registered population of SNOMED codes in TPP general practice (January 2019 -  December 2020). March 2020 indicated in pink. Codes with no activity at all omitted. Only for practices using the TPP supplier system**
 <br>
-![Barchart showing monthly trend in use of specific online-consultation relevant codes](/assets/sc03_fig01_nattrends_REWORKED.png){:height="700px" }
+<p align="center">
+  <img height="700" src="assets/sc03_fig01_nattrends_REWORKED.png">
+</p>
 
 <br>
 <b>Table 1. Characteristics of the studied cohort (TPP system), both overall and by a) patients with any form of GP consultation in 2019-2020; b) patients with any OC code instance in 2019-2020</b>
 
-<table>
-<tbody>
-<tr>
-<td rowspan="2">
-<p><strong>Characteristic</strong></p>
-</td>
-<td>
-<p><strong>Overall</strong></p>
-</td>
-<td>
-<p><strong>Had any GP consultation</strong></p>
-</td>
-<td>
-<p><strong>Had OC coding instance</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;"> N = 20,651,036</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">N = 17,166,765</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">N = 1,087,919</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>sex</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Female</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">9,599,496 (49%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">9,172,833 (53%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">661,235 </span><strong>(61%)</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Male</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">9,963,322 (51%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">7,993,645 (47%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">426,654 (39%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Other/Unknown</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">299 (&lt;0.1%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">287 (&lt;0.1%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">30 (&lt;0.1%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>age [2]</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">41 (21, 59)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">44 (24, 61)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">43 (27, 58)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>Age group</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(0,18]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,151,378 (21%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,279,485 (19%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">147,313 (14%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(18,40]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">5,388,980 (28%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,295,711 (25%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">349,162 (32%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(40,50]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,665,869 (14%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,353,934 (14%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">176,261 (16%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(50,60]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,735,067 (14%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,577,374 (15%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">178,461 (17%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(60,70]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,144,742 (11%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,137,624 (13%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">124,470 (12%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(70,80]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,598,702 (8.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,627,530 (9.6%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">74,886 (6.9%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">(80,Inf]</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">716,706 (3.7%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">729,284 (4.3%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">30,036 (2.8%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Unknown</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">161,673</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">165,823</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">7,330</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>ethnicity</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Asian</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,209,218 (6.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">995,568 (5.8%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">43,196 (4.0%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Black</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">398,242 (2.0%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">318,858 (1.9%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">14,157 (1.3%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Mixed</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">238,762 (1.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">189,299 (1.1%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">10,708 (1.0%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Other</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">5,737,108 (29%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,775,182 (28%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">289,469 (27%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">White</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">11,979,787 (61%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">10,887,858 (63%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">730,389</span><strong> (67%)</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>living alone</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">5,466,461 (28%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,733,553 (28%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">316,542 (29%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>region</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">East</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,623,066 (24%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,014,256 (23%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">200,338 (18%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">East Midlands</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,458,477 (18%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,036,933 (18%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">160,425 (15%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">London</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,277,438 (6.5%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">940,810 (5.5%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">62,586 (5.8%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">North East</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">960,313 (4.9%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">812,460 (4.7%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,494 (0.3%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">North West</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,722,626 (8.8%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,587,452 (9.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">120,462 (11%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">South East</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,236,531 (6.3%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,119,208 (6.5%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">121,340 (11%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">South West</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,586,842 (13%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,410,816 (14%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">251,541 (23%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">West Midlands</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">840,558 (4.3%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">699,715 (4.1%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">21,112 (1.9%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Yorkshire &amp; The Humber</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,851,255 (15%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,540,057 (15%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">146,558 (13%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Unknown</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">6,011</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">5,058</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">63</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>deprivation quintile</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Q1 (most)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,989,883 (21%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,376,403 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">167,889 </span><strong>(16%)</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Q2</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,822,954 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,297,000 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">209,375 (20%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Q3</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">4,023,228 (21%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,545,312 (21%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">236,391 (22%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Q4</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,817,032 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,409,747 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">235,705 (22%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Q5 (least)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,577,294 (19%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,238,612 (19%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">219,527 (21%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Unknown</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">332,726</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">299,691</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">19,032</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>rural urban</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Other</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">310,706 (1.6%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">281,603 (1.6%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">18,154 (1.7%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Rural</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,896,532 (20%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">3,578,049 (21%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">216,578 (20%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Urban</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">15,355,879 (78%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">13,307,113 (78%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">853,187 (78%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>care home</strong></p>
-</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Yes</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">34,545 (0.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">35,080 (0.2%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">2,592 (0.2%)</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">Non</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">19,528,572 (100%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">17,131,685 (100%)</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">1,085,327 (100%)</span></p>
-</td>
-</tr>
-<tr>
-<td colspan="3">
-<p><em><span style="font-weight: 400;"></span></em><span style="font-weight: 400;">Showing n (%) except for [2] which shows Median (IQR)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-</table>
+
+| Characteristic | Overall | Had any GP consultation | Had OC coding instance |
+| :------------- | :--------- | :---------- | :----------- |
+||N = 20,651,036|N = 17,166,765|N = 1,087,919|
+|**Sex**||||
+|Female|9,599,496 (49%)|9,172,833 (53%)|661,235 (61%)|
+|Male|9,963,322 (51%)|7,993,645 (47%)|426,654 (39%)|
+|Other/Unknown|299 (<0.1%)|287 (<0.1%)|30 (<0.1%)|
+|**age** [2]|41 (21, 59)|44 (24, 61)|43 (27, 58)|
+|**Age group**||||
+|(0,18]|4,151,378 (21%)|3,279,485 (19%)|147,313 (14%)|
+|(18,40]|5,388,980 (28%)|4,295,711 (25%)|349,162 (32%)|
+|(40,50]|2,665,869 (14%)|2,353,934 (14%)|176,261 (16%)|
+|(50,60]|2,735,067 (14%)|2,577,374 (15%)|178,461 (17%)|
+|(60,70]|2,144,742 (11%)|2,137,624 (13%)|124,470 (12%)|
+|(70,80]|1,598,702 (8.2%)|1,627,530 (9.6%)|74,886 (6.9%)|
+|(80,Inf]|716,706 (3.7%)|729,284 (4.3%)|30,036 (2.8%)|
+|Unknown|161,673|165,823|7,330|
+|**ethnicity**||||       
+|Asian|1,209,218 (6.2%)|995,568 (5.8%)|43,196 (4.0%)|
+|Black|398,242 (2.0%)|318,858 (1.9%)|14,157 (1.3%)|
+|Mixed|238,762 (1.2%)|189,299 (1.1%)|10,708 (1.0%)|
+|Other|5,737,108 (29%)|4,775,182 (28%)|289,469 (27%)|
+|White|11,979,787 (61%)|10,887,858 (63%)|730,389 (67%)|
+|**living alone**|5,466,461 (28%)|4,733,553 (28%)|316,542 (29%)|
+|**region**||||      
+|East|4,623,066 (24%)|4,014,256 (23%)|200,338 (18%)|
+|East Midlands|3,458,477 (18%)|3,036,933 (18%)|160,425 (15%)|
+|London|1,277,438 (6.5%)|940,810 (5.5%)|62,586 (5.8%)|
+|North East|960,313 (4.9%)|812,460 (4.7%)|3,494 (0.3%)|
+|North West|1,722,626 (8.8%)|1,587,452 (9.2%)|120,462 (11%)|
+|South East|1,236,531 (6.3%)|1,119,208 (6.5%)|121,340 (11%)|
+|South West|2,586,842 (13%)|2,410,816 (14%)|251,541 (23%)|
+|West Midlands|840,558 (4.3%)|699,715 (4.1%)|21,112 (1.9%)|
+|Yorkshire & The Humber|2,851,255 (15%)|2,540,057 (15%)|146,558 (13%)|
+|Unknown|6,011|5,058|63|
+|**deprivation quintile**||||        
+|Q1 (most)|3,989,883 (21%)|3,376,403 (20%)|167,889 (16%)|
+|Q2|3,822,954 (20%)|3,297,000 (20%)|209,375 (20%)|
+|Q3|4,023,228 (21%)|3,545,312 (21%)|236,391 (22%)|
+|Q4|3,817,032 (20%)|3,409,747 (20%)|235,705 (22%)|
+|Q5 (least)|3,577,294 (19%)|3,238,612 (19%)|219,527 (21%)|
+|Unknown|332,726|299,691|19,032|
+|**rural urban**||||         
+|Other|310,706 (1.6%)|281,603 (1.6%)|18,154 (1.7%)|
+|Rural|3,896,532 (20%)|3,578,049 (21%)|216,578 (20%)|
+|Urban|15,355,879 (78%)|13,307,113 (78%)|853,187 (78%)|
+|**care home**||||       
+|Yes|34,545 (0.2%)|35,080 (0.2%)|2,592 (0.2%)|
+|Non|19,528,572 (100%)|17,131,685 (100%)|1,085,327 (100%)|
+
+*Showing n (%) except for [2] which shows Median (IQR)*
