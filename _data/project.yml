@@ -38,9 +38,9 @@
   link: https://github.com/nhsx/eLfH-PHM-RiskStrat
   stage: Dissemination
   badge1: R  
-  badge2: Predcition
+  badge2: Prediction
   badge3: Analytics
-  description: Risk Prediction - A practical example in R to accompany the e-LfH module.
+  description: Risk Stratification - A practical example in R to accompany the HEE e-LfH module.
   author: Matthew Francis (PHE) and Martina Fonseca
 
 - title: NHS App Analytics Dashboard
@@ -79,3 +79,11 @@
   description: Methodology to calculate impact of aging population on activity forecasts.
   author: Jonny Pearson
 
+- title: NHSX Academic publications
+  link: https://nhsx.github.io/nhsx-publications/
+  stage: Delivery
+  badge1: Open Analytics
+  badge2: Publications
+  badge3: Python
+  description: Displaying statistics on NHS and NHSX-affiliated publications on Pubmed.
+  author: Martina Fonseca

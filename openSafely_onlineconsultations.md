@@ -101,9 +101,11 @@ More than anything, this project was a great opportunity to collaborate and lear
 ## Appendix - Highlight figures and graphs
 
 **Figure 1. Portion of practices with any recorded activity for online consultation relevant codes in general practice (January 2019 -  December 2020). Codes with no activity at all omitted. Only for practices using the TPP supplier system**
+<br>
 ![Barchart showing portion of TPP practices that have a certain online-consultation relevant code recorded](/assets/sc03_fig05_pracnatcoverage_REWORKED.png){:height="700px" }
 
 **Figure 2. Monthly code instance rates per 1,000 registered population of SNOMED codes in TPP general practice (January 2019 -  December 2020). March 2020 indicated in pink. Codes with no activity at all omitted. Only for practices using the TPP supplier system**
+<br>
 ![Barchart showing monthly trend in use of specific online-consultation relevant codes](/assets/sc03_fig01_nattrends_REWORKED.png){:height="700px" }
 
 <br>
