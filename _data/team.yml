@@ -15,3 +15,9 @@
   image: assets/Mary.Amanuel.jpg # Can be external link
   email: mary.amanuel@nhsx.nhs.uk
   github: maryamanuelnhsx 
+
+- name: Martina Fonseca
+  role: Senior Analyst
+  image: assets/martina.jpg # Can be external link
+  email: martina.fonseca@nhsx.nhs.uk
+  github: mbfons 
