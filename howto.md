@@ -36,7 +36,7 @@ permalink: howto.html
 
 ## Update this website
 
-1. Install Ruby, Jekyll and Bundle on your system (For Mac see https://jekyllrb.com/docs/installation/macos/ for help and use homebrew; For Windows see https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows.html)
+1. Install Ruby, Jekyll and Bundle on your system (For Mac see <https://jekyllrb.com/docs/installation/macos/> for help and use homebrew; For Windows see [here](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows.html))
 2. Clone <https://github.com/nhsx/AnalyticsUnit>
 2. Create a new branch
 3. In ther terminal, navigate to the repo folder and execute `bundle`
