@@ -77,6 +77,6 @@ Process for releasing outputs: Whilst the framework is open, the data and result
 
 ## Conclusion
 
-Our work has been published [on the OpenSAFELY github account](https://github.com/opensafely/OS_OC_v001-research);  it is published as a record but should not be used for onward development, decision making or analysis. This work was superseded by the "[SARS-CoV2 (COVID-19) Vaccine Uptake Reporting Specification](https://github.com/opensafely/primis-covid-vacc-uptake-spec)", for which a report has since been [pre-printed](https://doi.org/10.1101/2021.01.25.21250356).
+Our work is [under review to be made public on the OpenSAFELY github account](https://www.opensafely.org/approved-projects/);  it is published as a record but should not be used for onward development, decision making or analysis. This work was superseded by the "[SARS-CoV2 (COVID-19) Vaccine Uptake Reporting Specification](https://github.com/opensafely/primis-covid-vacc-uptake-spec)", for which a report has since been [pre-printed](https://doi.org/10.1101/2021.01.25.21250356).
 
 We are continuing to work with the Datalab team on OpenSAFELY across a variety of Covid-19 projects. Our main focus is to increase the use of OpenSAFELY across NHSX and NHS England and Improvement.
