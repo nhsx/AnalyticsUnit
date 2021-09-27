@@ -4,49 +4,41 @@ description: Template for projects
 ---
 
 <div class="page-title">
-    <h1>Projects</h1>
-</div>          
+  <h1>Projects</h1>
+</div>
 <h3>Separated into stages</h3>
 
 {% for stage in site.data.kanban %}
 
-    <br>
-    <div class="notice-success">
-        <h1 style="color: rgb(0, 0, 0)">{{stage.name}}</h1>
+<br />
+<div class="notice-success">
+  <h2 style="color: rgb(0, 0, 0)">{{stage.name}}</h2>
+</div>
+<ul class="nhsuk-grid-row nhsuk-card-group">
+  {% for proj in site.data.project %} {% if stage.name == proj.stage %}
+
+  <li class="nhsuk-grid-column-one-half nhsuk-card-group__item">
+    <div class="nhsuk-card">
+      <div class="nhsuk-card__content">
+        <h2 class="post-title" itemprop="name">
+          <a href="{{proj.link}}">{{proj.title}}</a>
+        </h2>
+        <h6 class="post-author" itemprop="author">{{proj.author}}</h6>
+        <p class="post-excerpt" itemprop="description">{{proj.description}}</p>
+        <td class="nhsuk-table__cell">
+          <strong class="nhsuk-tag"> {{proj.badge1}} </strong>
+        </td>
+        <td class="nhsuk-table__cell">
+          <strong class="nhsuk-tag"> {{proj.badge2}} </strong>
+        </td>
+        <td class="nhsuk-table__cell">
+          <strong class="nhsuk-tag"> {{proj.badge3}} </strong>
+        </td>
+      </div>
     </div>
-    <ul class="nhsuk-grid-row nhsuk-card-group">
+  </li>
 
-        {% for proj in site.data.project %}
-            {% if stage.name == proj.stage %}
-
-                <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
-                    <div class="nhsuk-card">
-                        <div class="nhsuk-card__content">
-                            <h2 class="post-title" itemprop="name"><a href="{{proj.link}}">{{proj.title}}</a></h2>
-                            <h6 class="post-author" itemprop="author">{{proj.author}}</h6>
-                            <p class="post-excerpt" itemprop="description">{{proj.description}}</p>
-                            <td class="nhsuk-table__cell">
-                                <strong class="nhsuk-tag">
-                                {{proj.badge1}}
-                                </strong>                            
-                            </td>        
-                            <td class="nhsuk-table__cell">
-                                <strong class="nhsuk-tag">
-                                {{proj.badge2}}
-                                </strong>                            
-                            </td>      
-                            <td class="nhsuk-table__cell">
-                                <strong class="nhsuk-tag">
-                                {{proj.badge3}}
-                                </strong>                            
-                            </td>      
-                        </div>
-                    </div> 
-                </li>
-
-            {% endif %}    
-        {% endfor %}    
-
-    </ul>   
+  {% endif %} {% endfor %}
+</ul>
 
 {% endfor %}
