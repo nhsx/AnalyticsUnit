@@ -1,23 +1,35 @@
 - name: Jonny Pearson
   role: Lead Data Scientist
-  image: assets/Jonny.jpg # Can be external link
+  image: assets/img/staff/Jonny.jpg # Can be external link
   email: jonathan.pearson@nhsx.nhs.uk
   github: JRPearson500
 
 - name: Daniel Schofield
   role: Senior Data Scientist
-  image: assets/Anon.jpg # Can be external link
+  image: assets/img/staff/Anon.jpg # Can be external link
   email: daniel.schofield@nhsx.nhs.uk
   github: danjscho
 
 - name: Mary Amanuel
   role: Data Analyst
-  image: assets/Mary.Amanuel.jpg # Can be external link
+  image: assets/img/staff/Mary.Amanuel.jpg # Can be external link
   email: mary.amanuel@nhsx.nhs.uk
-  github: maryamanuelnhsx 
+  github: maryamanuelnhsx
 
 - name: Martina Fonseca
   role: Senior Analyst
-  image: assets/martina.jpg # Can be external link
+  image: assets/img/staff/martina.jpg # Can be external link
   email: martina.fonseca@nhsx.nhs.uk
-  github: mbfons 
+  github: mbfons
+
+- name: Craig Shenton
+  role: Data Engineer
+  image: assets/img/staff/Craig.png # Can be external link
+  email: craig.shenton@nhsx.nhs.uk
+  github: craig-shenton
+
+- name: Mattia Ficarelli
+  role: Data Analyst
+  image: assets/img/staff/mattia.jpeg # Can be external link
+  email: mattia.ficarelli@nhsx.nhs.uk
+  github: mattia-ficarelli
