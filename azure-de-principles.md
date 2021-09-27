@@ -31,7 +31,7 @@ The first step in untangling this web of configurations is applying parameterisa
 For example, we created a generic dataset for handling `.csv` files on our Azure Datalake that passes the following parameters at runtime:
 
 <p align="center">
-  <img src="assets/img/azure-de-principles/fig1.png">
+  <img height="120px" src="assets/img/azure-de-principles/fig1.png">
 </p>
 
 <center><b>Figure 1.</b> An Azure Data Factory dataset file path configuration using the parameters; <code>@dataset().fileSystem</code>, <code>@dataset().filePath</code>, <code>@dataset().fileName</code> to denote the datalake file system name, the file path and and the file name.</center>
@@ -44,7 +44,7 @@ A downside of highly parameterised pipelines is that they can become harder to d
 ### Example: latestFolder
 
 <p align="center">
-  <img src="assets/img/azure-de-principles/fig2.png">
+  <img height="200" src="assets/img/azure-de-principles/fig2.png">
 </p>
 
 <center><b>Figure 2.</b> An example Azure Data Factory pipeline utility that can append the source path of any file with the latest time-stamped folder path.</center>
@@ -80,7 +80,7 @@ For our internal analytics data engineering work, we have found it useful to bre
 ### **Example 1**: SQL Database Ingestion Pipeline
 
 <p align="center">
-  <img src="assets/img/azure-de-principles/fig3.png">
+  <img height="360" src="assets/img/azure-de-principles/fig3.png">
 </p>
 
 <center><b>Figure 3.</b> An example Azure Data Factory ingestion pipeline template that can be configured to extract data from an Azure SQL database to Azure Datalake blob storage.</center>
@@ -121,7 +121,7 @@ You can download the Azure Data Factory `.json` configuration file on [our docum
 ### **Example 2**: Databricks Processing Pipeline
 
 <p align="center">
-  <img src="assets/img/azure-de-principles/fig4.png">
+  <img height="120" src="assets/img/azure-de-principles/fig4.png">
 </p>
 
 <center><b>Figure 4.</b> An example Azure Data Factory pipeline processing pipeline template that can be configured to run a Databricks notebook.</center>
