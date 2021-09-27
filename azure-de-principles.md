@@ -13,14 +13,14 @@ permalink: azure-de-principles.html
 
 In this post, we aim to set out the data engineering principles we have developed over the last year, in designing and building our Azure cloud-analytics infrastructure. These principles are broken down into the following sections:
 
-- [Parameterisation](##Parameterisation)
-  - [Latest Folder Utility](###Example:-latestFolder)
-- [Configuration-as-code](##Configuration-as-code)
-- [Standardised ETL Design Patterns](##Standardised-ETL-Design-Patterns)
-  - [SQL Database Ingestion Pipeline](###Example-1:-SQL-Database-Ingestion-Pipeline)
-  - [Databricks Processing Pipeline](###Example-2:-Databricks-Processing-Pipeline)
-- [Hierarchical Pipeline Orchestration]()
-- [Documentation-as-code]()
+- [Parameterisation](#Parameterisation)
+  - [Latest Folder Utility](#Example:-latestFolder)
+- [Configuration-as-code](#Configuration-as-code)
+- [Standardised ETL Design Patterns](#Standardised-ETL-Design-Patterns)
+  - [SQL Database Ingestion Pipeline](#Example-1:-SQL-Database-Ingestion-Pipeline)
+  - [Databricks Processing Pipeline](#Example-2:-Databricks-Processing-Pipeline)
+- [Hierarchical Pipeline Orchestration](#Hierarchical-Pipeline-Orchestration)
+- [Documentation-as-code](#Documentation-as-code)
 
 ## Parameterisation
 
@@ -97,25 +97,6 @@ The SQL ingestion template works as follows:
 - On the sink side, the Datalake connection string is also passed via an ADF linked service, but the file system, sink path, and file name are all set by the configuration file. This could be a .csv file or a .parquet file for example
 - Finally, if the copy activity fails for some reason, an error notification pipeline is called that contains a simple logic app used to notify a specified email address of the error [[5](https://www.mssqltips.com/sqlservertip/5718/azure-data-factory-pipeline-email-notification-part-1/)]
 
-```Python
-{
-  "pipeline": {
-    "name": "ingestion_sql",
-    "folder": "templates/ingestion/sql",
-    "adl_file_system": "file_system",
-    "raw": {
-      "source_dbo": "dbo",
-      "source_table": "table_1",
-      "source_query": "SELECT * FROM dbo.table_1 ORDER BY Date DESC",
-      "sink_path": "raw/path/to/data",
-      "sink_file": "table_1.parquet"
-    }
-}
-```
-
-<center><b>Code 1.</b> An example pipeline configuration file for this design pattern.</center>
-<br>
-
 You can download the Azure Data Factory `.json` configuration file on [our documentation site](https://nhsx.github.io/au-data-engineering/adfpipelines.html#sql-database-ingestion-pipeline) and use this template in your own data pipelines [[6](https://nhsx.github.io/au-data-engineering/adfpipelines.html#sql-database-ingestion-pipeline)].
 
 ### **Example 2**: Databricks Processing Pipeline
@@ -137,45 +118,6 @@ The Databricks processing template works as follows:
 - Finally, if the Databricks notebook activity fails, an error notification pipeline is called that contains a simple logic app used to notify a specified email address of the error.
 
 We typically use this pipeline to trigger an orchestrator Databricks notebook which in turn runs a series of data processing notebooks. This allows for much more flexibility, as we may want to process multiple metric calculations from the same data source.
-
-Below is an example of how we set up a Databricks python code to sequentially run databricks notebook paths specified in the `.json` config file.
-
-```Python
-#Squentially run datbricks notebooks
-for index, item in enumerate(config_JSON['pipeline']['project']['databricks']):
-    notebook = config_JSON['pipeline']['project']['databricks'][index]['databricks_notebook']
-    dbutils.notebook.run(notebook, 120)
-  except Exception as e:
-    print(e)
-```
-
-<center><b>Code 2.</b> Example python code to sequentially run databricks notebook paths specified in the <code>.json</code> config file.</center>
-<br>
-
-```Python
-{
-  "pipeline": {
-    "name": "processing_databricks",
-    "folder": "templates/processing/databricks_orchestrator",
-    "project": {
-      "databricks_orchestrator_notebook": "/path/to/databricks/orchestrator_notebook"
-      "databricks":[
-          {
-        "sink_path": "path/to/processed/data",
-        "sink_file": "file_1.csv",
-        "databricks_notebook": "/path/to/databricks/processing_notebook1"
-        },
-          {
-        "sink_path": "path/to/processed/data",
-        "sink_file": "file_2.csv",
-        "databricks_notebook": "/path/to/databricks/processing_notebook2"
-        },
-    }
-}
-```
-
-<center><b>Code 3.</b> An example pipeline configuration file for this design pattern.</center>
-<br>
 
 You can download the Azure Data Factory `.json` configuration file on [our documentation site](https://nhsx.github.io/au-data-engineering/adfpipelines.html#databricks-processing-pipeline) and use this template in your own data pipelines [[7](https://nhsx.github.io/au-data-engineering/adfpipelines.html#databricks-processing-pipeline)].
 

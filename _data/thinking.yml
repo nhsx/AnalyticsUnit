@@ -9,15 +9,15 @@
 - title: OpenSafely and NHSX - Learning from our first collaboration
   link: openSafely_learning.html
   stage: interested
-  image: assets/img/open-safely.jpeg
+  image: assets/img/open-safely.png
   description: This blog highlights learnings from onboarding NHSX data scientists into the OpenSafely framework (covering work from Oct-20 till Jan-21)
   author: Jonny Pearson
   date: February 2021
 
-- title: Increasing understanding of online consultation activity through OpenSAFELY (onboarding pilot project)
+- title: Increasing understanding of online consultation activity through OpenSAFELY
   link: openSafely_onlineconsultations.html
   stage: interested
-  image: assets/img/open-safely.jpeg
+  image: assets/img/open-safely.png
   description: This post covers the exploration done around the roll-out of online consultations and its coding activity in primary care records, via OpenSAFELY. It includes key learnings and outputs.
   author: Martina Fonseca
   date: September 2021
