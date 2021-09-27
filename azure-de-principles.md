@@ -31,7 +31,7 @@ The first step in untangling this web of configurations is applying parameterisa
 For example, we created a generic dataset for handling `.csv` files on our Azure Datalake that passes the following parameters at runtime:
 
 <p align="center">
-  <img height="120px" src="assets/img/azure-de-principles/fig1.png">
+  <img height="110px" src="assets/img/azure-de-principles/fig1.png">
 </p>
 
 <center><b>Figure 1.</b> An Azure Data Factory dataset file path configuration using the parameters; <code>@dataset().fileSystem</code>, <code>@dataset().filePath</code>, <code>@dataset().fileName</code> to denote the datalake file system name, the file path and and the file name.</center>
