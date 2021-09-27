@@ -124,7 +124,7 @@ You can download the Azure Data Factory `.json` configuration file on [our docum
 ## Hierarchical Pipeline Orchestration
 
 <p align="center">
-  <img height=250px src="assets/img/azure-de-principles/fig5.png">
+  <img height=350px src="assets/img/azure-de-principles/fig5.png">
 </p>
 
 <center><b>Figure 5.</b> A hierarchicy of pipelines. At the top, a orchestration pipeline that triggers the sub-pipelines below. Each phase of the data processing (extract, transform, and load, or ETL) is a fully parameterised template that requires no setup of its own [<a href="https://github.com/mrpaulandrew/ContentCollateral">8</a>]. </center>
