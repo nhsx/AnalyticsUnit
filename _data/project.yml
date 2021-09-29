@@ -89,7 +89,7 @@
   author: Martina Fonseca
 
 - title: SynthVAE
-  link: https://nhsx.github.io/nhsx-publications/
+  link: https://github.com/nhsx/SynthVAE
   stage: Complete
   badge1: PHD Data Science Intern Scheme
   badge2: Variational AutoEnconder
