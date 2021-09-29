@@ -24,7 +24,6 @@ permalink: howto.html
 - Are there other stakeholders that need to be informed or included?
 - Are any statements incorrect?
 - Are statements backed up with evidence?
-- Are there other stakeholders that need to be informed or included?
 
 **Technical Review** (focus on appearance on the website)
 - No data (unless public {in which case reference data rather than copying} or fake/synthetic) or sensitive strings. 

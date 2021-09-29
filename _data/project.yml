@@ -87,3 +87,21 @@
   badge3: Python
   description: Displaying statistics on NHS and NHSX-affiliated publications on Pubmed.
   author: Martina Fonseca
+
+- title: SynthVAE
+  link: https://github.com/nhsx/SynthVAE
+  stage: Complete
+  badge1: PHD Data Science Intern Scheme
+  badge2: Variational AutoEnconder
+  badge3: Synthetic
+  description: Synthetic data generation by a Variational AutoEncoder with Differential Privacy assessed using Synthetic Data Vault metrics
+  author: Jonny Pearson (on behalf of Dom Danks)
+
+- title: SynPath - Diabetes
+  link: https://github.com/nhsx/SynPath_Diabetes
+  stage: Complete
+  badge1: PHD Data Science Intern Scheme
+  badge2: Simulation
+  badge3: Synthetic
+  description: SynPath module for generating type 2 diabetes pathway
+  author: Jonny Pearson (on behalf of Tiyi Morris)
