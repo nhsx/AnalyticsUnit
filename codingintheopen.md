@@ -19,7 +19,7 @@ Summarising a range of advice and recommendations alongside evidence of the mand
 A whole range of excellent Government Digital Services (GDS) blogs and published materials:
 
 - [The GOV.UK website](https://www.gov.uk/)
-- [Shared Code at Scale: How to Accelerate Your Team | Perforce](https://www.perforce.com/blog/vcs/shared-code-at-scale)
+- [Shared Code at Scale: How to Accelerate Your Team - Perforce](https://www.perforce.com/blog/vcs/shared-code-at-scale)
 - [Best practices for a collaborative software development culture](https://resources.github.com/whitepapers/Best-practices-collaborative-software-development/)
 - [Best Practices for Managing Your Code Library - Practical Business Python](https://pbpython.com/best-practices.html)
 - [Protect your code repository - NCSC.GOV.UK](https://www.ncsc.gov.uk/collection/developers-collection/principles/protect-your-code-repository)
