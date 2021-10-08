@@ -1,19 +1,11 @@
-- title: Synthetic Data in Healthcare
-  link: synthetic.html
-  stage: thought_stream
-  image: assets/img/graph.jpg
-  description: This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
-  author: Jonny Pearson
-  date: August 2021
-
-- title: OpenSafely and NHSX - Learning from our first collaboration
-  link: openSafely_learning.html
+- title: Sharing Code in the Open
+  link: codeintheopen.html
   stage: interested
-  image: assets/img/open-safely.png
-  description: This blog highlights learnings from onboarding NHSX data scientists into the OpenSafely framework (covering work from Oct-20 till Jan-21)
+  image: assets/img/knowlegdeShare.jpeg
+  description: Summarising a range of advice and recommendations alongside evidence of the mandate for sharing code in the open.
   author: Jonny Pearson
-  date: February 2021
-
+  date: October 2021
+ 
 - title: Increasing understanding of online consultation activity through OpenSAFELY
   link: openSafely_onlineconsultations.html
   stage: interested
@@ -37,4 +29,23 @@
   description: One of our PhD Data Science Interns shares their experience of partaking in the scheme and suggests some tips for others applying in the future
   author: Tiyi Morris
   date: September 2021
+
+- title: Synthetic Data in Healthcare
+  link: synthetic.html
+  stage: thought_stream
+  image: assets/img/graph.jpg
+  description: This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
+  author: Jonny Pearson
+  date: August 2021
+
+- title: OpenSafely and NHSX - Learning from our first collaboration
+  link: openSafely_learning.html
+  stage: interested
+  image: assets/img/open-safely.png
+  description: This blog highlights learnings from onboarding NHSX data scientists into the OpenSafely framework (covering work from Oct-20 till Jan-21)
+  author: Jonny Pearson
+  date: February 2021
+
+
+
 
