@@ -46,6 +46,14 @@
   author: Jonny Pearson
   date: August 2021
 
+- title: Experiences of Accessing Open Source Tools in the NHS
+  link: experiences.html
+  stage: thought_stream
+  image: assets/img/tools.jpeg
+  description: Capturing some of the key points raised during interviews with NHS analysts regarding their experience of using open source software in the NHS
+  author: Analytics Unit
+  date: August 2021
+
 - title: OpenSafely and NHSX - Learning from our first collaboration
   link: openSafely_learning.html
   stage: interested
