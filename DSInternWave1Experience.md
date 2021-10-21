@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Data Science Internships - Student Experiences
-description: A couple of our wave 1 PhD Data Science Interns shares their experience of partaking in the scheme and suggests some tips for others applying in the future
+description: A couple of our wave 1 PhD Data Science Interns share their experience of partaking in the scheme and suggests some tips for others applying in the future
 permalink: DSInternWave1Experience.html
 ---
 
