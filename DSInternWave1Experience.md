@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Data Science Internships - Experience and Tips
-description: One of our PhD Data Science Interns shares their experience of partaking in the scheme and suggests some tips for others applying in the future
+title: Data Science Internships - Student Experiences
+description: A couple of our wave 1 PhD Data Science Interns shares their experience of partaking in the scheme and suggests some tips for others applying in the future
 permalink: DSInternWave1Experience.html
 ---
 
@@ -20,3 +20,17 @@ The project was initially about [longitudinal synthetic data](https://github.com
 Finally, you should make sure that you think about the way your PhD work and experience have shown you have transferable skills. Sometimes in quantitative disciplines we use different words to explain similar techniques in another field. Make sure you can communicate that the skills you have would make you a great intern.
 
 Good luck with your application!
+
+___
+
+**Date:** October 2021\\
+**Post author:** Dom Danks\\
+**Git repository:** [SynthVAE](https://github.com/nhsx/synthVAE)
+
+My name is Dom and I’m a PhD student affiliated with The Alan Turing Institute and the University of Birmingham focussing on the development of machine learning (ML) methodology with applications to a variety of health data settings. In the summer of 2021 I was fortunate to undertake a PhD Data Science Internship within the Innovation Branch of the NHSX Analytics Unit (NHSXAU). My project was aimed at applying the Variational Autoencoder to the problem of synthetic data generation in the context of the NHS.
+
+Given the nature of potential NHS use cases, it was important for the project to consider both the fidelity of the synthetic data and the extent to which the privacy of individuals’ data was retained. Prior to the project I had worked extensively with Variational Autoencoders, however had not been directly involved with synthetic data generation or formal privacy-preserving ML approaches. I therefore saw the project as an excellent opportunity to work on a project which both utilised knowledge I had developed during my PhD whilst simultaneously introducing me to additional areas of the field. It also represented the opportunity to see how approaches and priorities may differ between the academic world which I was accustomed to and that of a research-aware public sector setting like the NHSXAU.
+
+I highly recommend the scheme and strongly encourage you to apply if the internship scheme’s projects and format appeal to you. Within your application be sure to mention explicit experiences you may have had working with data and the tools you used. Also communicate why you have chosen the particular project(s) you have applied for. It may be that it is particularly related (or unrelated!) to your normal work - whatever it is, be sure to make it clear. Finally, do make use of the interview to ask questions about the project and put forward the ways in which you think you may develop it. This will show that you have thought through the process thoroughly and will more than likely lead to a fun and free-flowing discussion between you and the panel.
+
+Best of luck with your application!
