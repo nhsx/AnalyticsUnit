@@ -1,13 +1,13 @@
 ---
 layout: base
-title: Increasing understanding of online consultation coding activity through OpenSAFELY (onboarding pilot project)
+title: Increasing understanding of coding activity associated with online consultations through OpenSAFELY (onboarding pilot project)
 permalink: openSafely_onlineconsultations.html
 ---
 
 <h2> {{page.title}} </h2>
 
 **Date:** September 2021 (Covering work from Jan-21 till Jun-21)\\
-**Last updated:** 20th October 2021\\
+**Last updated:** 14th December 2021\\
 **Post author:** Martina Fonseca - Senior Analyst, NHSX\\
 **Research team:** NHSX Analytics Unit, NHSE/I Digital First Primary Care - in collaboration with OpenSAFELY\\
 **Git repository:** [opensafely/OS_OC_v001-research](https://github.com/opensafely/OS_OC_v001-research) (to be made open)
@@ -22,15 +22,15 @@ permalink: openSafely_onlineconsultations.html
 
 Late last year, NHSX and the Analytics Unit were given the opportunity to become the first external collaborators to work on the OpenSAFELY platform. Our lead data scientist Jonny Pearson wrote about the [journey and main learnings from this first collaboration](https://nhsx.github.io/AnalyticsUnit/openSafely_learning.html).
 
-Earlier in the year, we were given the opportunity to take part in the **[OpenSAFELY pilot for onboarding external approved users and researchers](https://www.opensafely.org/onboarding-new-users/)**. To continue the shared learning while also supporting the wider digital transformation agenda that NHSX is leading, we made use of OpenSAFELY to **better understand the implementation and adoption of online consultations (OC) in primary care**, in particular its coded activity in primary care records.
+Earlier in the year, we were given the opportunity to take part in the **[OpenSAFELY pilot for onboarding external approved users and researchers](https://www.opensafely.org/onboarding-new-users/)**. To continue the shared learning while also supporting the wider digital transformation agenda that NHSX is leading, we made use of OpenSAFELY to **better understand the implementation and utilisation of online consultations (OC) systems in primary care**, in particular its coded activity in primary care records.
 This piece outlines some of the main learnings, takeaways and outputs from this pilot project.
 
 
-## Roll-out of online consultations
+## Adoption of online consultation systems
 
 NHSE/I, through its Digital First Primary Care (DFPC) programme, has been working on enabling the adoption and use of online consultation systems as a means to increase choice and flexibility for patients in accessing and receiving care and supporting practices to signpost and triage patients to the correct member of staff or service, prioritising care on need and optimising use of wider primary care roles.
 
-An online consultation enables a patient to contact their GP, other health professional or GP practice staff over the internet, typically by using a smartphone, tablet or computer. It may, among other outcomes, also result in a written-form consultation.
+An online consultation enables a patient to contact their GP, other health professional or GP practice staff over the internet, typically by using a smartphone, tablet or computer. It may, among other functionality and outcomes, also result in a written-form online consultation (See glossary for distinction).
 
 The NHS Long Term plan (pre Covid) committed to every patient having the right to digital first primary care by 2023/24 with a commitment in the GP contract for 21/22 for all practices to offer online and video consultations. OC capability is believed to stand close to 95%.
 
@@ -48,7 +48,7 @@ One of the main strengths of OpenSAFELY is the richness of the [documentation](h
 
 The OpenSAFELY team also provides active and timely support via the GitHub Q&A forum and a dedicated researcher Slack channels.
 
-The first step in this discovery piece was defining the set of primary care codes relevant to online consultations to be queried. After initial desktop research and stakeholder input, the [OpenCodelists builder](https://www.opencodelists.org/) was used to define an 18-item codelist. This tool can be used by anyone to create, curate and re-use codelists.
+The first step in this discovery piece was defining the set of primary care codes relevant to online consultation systems, to be queried. After initial desktop research and stakeholder input, the [OpenCodelists builder](https://www.opencodelists.org/) was used to define an 18-item codelist. This tool can be used by anyone to create, curate and re-use codelists. While the codes chosen were not exhaustive or exclusive to online consultation systems, they were considered of most relevance to proxy its roll-out, ahead of moves for improved codes to be introduced and operationalised.
 
 Made easier by the documentation as well as other existing study repositories available on the Github, open-source tools were used, including:
 - **Python**: for defining the cohort and generating dummy data to test the code;
@@ -60,6 +60,7 @@ The dedicated jobs server was then used to request for the code to be run agains
 ### Tips ###
 Some tips for analysts, from current experience:
 - Define a fixed scope question and check feasibility based on available coding practices and literature;
+- Understand limitations of coding to proxy patient profiles or service activity (see [here](https://www.medrxiv.org/content/10.1101/2021.01.06.21249352v1) for a main overview) and ensure the final outputs reflect those caveats in the narrative and technical appendices;
 - Make full use of the rich documentation and Q&A forums;
 - Look into other public OpenSAFELY repositories and publications to understand the art of the possible and how to implement these. Many of the approaches are easily transferable and adaptable!
 - Though running code on dummy data can already help maximise chances that the code is fit for purpose when run on real data, breaking up the code, actions and jobs into smaller chunks and ensuring that the code produces informative logs and has fail-safes can really help when it comes to running and debugging code on the actual data, at ‘arms-length’.
@@ -69,7 +70,7 @@ Some tips for analysts, from current experience:
 ## Insights from the discovery piece
 
 
-All the direct outputs can be found on [Github](https://github.com/opensafely/OS_OC_v001-research) (to be made open) and a more comprehensive report has also been shared with stakeholders. Some highlights are shown in the Appendix below.
+All the direct outputs can be found on [Github](https://github.com/opensafely/OS_OC_v001-research) and a more comprehensive report has also been shared with stakeholders. Some highlights are shown in the Appendix below.
 
 Some insights include:
 
@@ -81,18 +82,24 @@ Some insights include:
     - Has a higher relative preponderance of those aged 18-40, followed by those aged 40-50 and 50-60;
     - Skews more towards white patients;
     - Skews more towards those least deprived 
-- We also found early indications that patients with online consultation coding activity were more likely to have a clinical history of asthma, depression or heart conditions than other patients with any overall GP consultation activity in the same period of time - it is important to note though that the OC systems user profile may not be generalisable and may be very dependent on the practice-by-practice implementation model
+- We also found early indications that patients with online consultation coding activity (specifically 'eConsultation' as code) were more likely to have a clinical history of asthma, depression or heart conditions than other patients with any overall GP consultation activity in the same period of time - it is important to note though that the OC systems user profile may not be generalisable and may be very dependent on the practice-by-practice implementation model
 
 
 ## Final thoughts
 
-Insights from this discovery pilot study help build the picture around the implementation and use of online consultations and can support ongoing discussions on differential patterns of uptake as well as conversations with practices, OC system suppliers and EHR suppliers on ensuring consistent and widespread coding practices. Areas of interest for future exploration include:
+Insights from this discovery pilot study help build the picture around the implementation and use of online consultation systems and can support ongoing discussions on differential patterns of uptake as well as conversations with practices, OC system suppliers and EHR suppliers on ensuring consistent and widespread coding practices. Areas of interest for future exploration include:
 - Development of coding activity metrics as proxies for wider coding quality and primary care activity (including sources of variation by organisation or patient sociodemographics);
 - Facilitation of research and evaluation studies. For instance, for those with eConsultation events, how many need to re-consult within a month?
 
 More than anything, this project was a great opportunity to collaborate and learn new stretching skills and techniques from DataLab and OpenSAFELY collaborative colleagues as well as subject knowledge from NHSE/I DFPC. It is also a great blueprint for the wider Data Strategy:
 - OpenSAFELY is a powerful tool for researchers and analysts to generate insights from healthcare data, while ensuring appropriate data protection. This contributes to aspirations set out in [Chapter 5 of the DHSC Data Strategy](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#empowering-researchers-with-the-data-they-need-to-develop-life-changing-treatments-models-of-care-and-insights), on empowering researchers with the data they need to develop life-changing treatments, models of care and insights.
 - Its use of open source tools, version control, web user interfaces and rich documentation is also in line with the [desired direction of travel for ways of working in the NHS and for health and social care analysts across](https://www.nhsx.nhs.uk/blogs/data-saves-lives-building-and-skilling-nhs-analytics-community/), namely with ambitions set out in [Chapter 3 of the draft DHSC Data Strategy](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#supporting-local-and-national-decision-makers-with-data), on building analytical and data science capability, working transparently and in the open, encouraging sharing practices and collaborations with partners.
+
+## Glossary
+
+- <b>Online consultation system: </b> An online consultation system enables patients, carers, or practice staff on a patient’s behalf, to securely submit structured written information about symptoms, issues or concerns including administrative requests to their practice asynchronously online. There are various online consultation tools which offer different functionality to support practices with triage, navigation and providing care using the most appropriate consultation method based on patient needs and preferences (this includes face to face, telephone, video or online written consultations). Many tools provide additional functionality, such as the ability for patients to send photographs or for practices to proactively ask for information from patients (e.g. in relation to Long Term Condition reviews).
+
+- <b> Written online consultation: </b> A written online consultation is a two-way written exchange between a healthcare professional and a patient using an online medium (such as an online web platform or SMS). Such exchanges offer an alternative route of access for patients alongside telephone and face-to-face consultations.
 
 ## Appendix - Highlight figures and graphs
 
@@ -180,7 +187,7 @@ More than anything, this project was a great opportunity to collaborate and lear
 ||(70,80]|1,673,588 (8.2%)|1,627,530 (9.6%)|74,886 (6.9%)|
 ||(80,Inf]|746,742 (3.6%)|729,284 (4.3%)|30,036 (2.8%)|
 ||Unknown|169,003|165,823|7,330|      
-|**ethnicity**|White|1,252,414 (6.1%)|995,568 (5.8%)|43,196 (4.0%)|
+|**ethnicity**|Asian|1,252,414 (6.1%)|995,568 (5.8%)|43,196 (4.0%)|
 ||Black|412,399 (2.0%)|318,858 (1.9%)|14,157 (1.3%)|
 ||Mixed|249,470 (1.2%)|189,299 (1.1%)|10,708 (1.0%)|
 ||Other|6,026,577 (29%)|4,775,182 (28%)|289,469 (27%)|
