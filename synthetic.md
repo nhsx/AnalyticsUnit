@@ -6,6 +6,8 @@ permalink: synthetic.html
 
 <h2> {{page.title}} </h2>
 
+*Updated December 2021*
+
 The analytics team in NHSX is currently conducting research into best practice and examples for generating synthetic healthcare data for the purpose of enabling greater data sharing across the system.   This work will progress through our PhD internship scheme as well as through collaborating and commissioning small proof of concepts to create shareable tools and guidance.  Our aim is to make this work open through our github account and the NHSX website.   
 
 This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
@@ -100,16 +102,18 @@ At this point it is useful to again consider if synthetic data is the right solu
 The quality of the data comes down to how much the synthetic data contains the ground truth contained in the source data.   The quality required depends on the use-case but we also need to be able to put some form of a value on the quality of the synthetic data produced to support appropriate use.
 
 There are a few tests available for testing how much of the original value remains in the synthetic extract, although none are perfect:
-* Simple profile comparison and frequency statistics of combinations within the data (e.g. Pearson’s correlations and similarity matrices)
-* Kolmogoroc-Smirnov test for comparing the cumulative distribution function of two continuous variables and the chi-squared test for comparing discrete distributions
-* [Voas Williamson statistic](https://onlinelibrary.wiley.com/doi/abs/10.1002/1099-1220%28200009/10%296%3A5%3C349%3A%3AAID-IJPG196%3E3.0.CO%3B2-5) - measures variance versus degrees of freedom for various combinations within the data
-* Use of [propensity scores](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/568)
-* Off-Manifold and Latent Space checks (consider using principal component analysis (PCA) or [t-distributed stochastic neighbor embedding](https://distill.pub/2016/misread-tsne/) (t-SNE) to visualise any new variable combinations created)  
-* Running two statistical/machine learning models related to the end use-case on the raw and synthetic data to compare the resultant summary statistics 
+* **Profile Comparison** and frequency statistics of combinations within the data (e.g. Pearson’s correlations and similarity matrices)
+* **Statistical Distribtuion Comparisons** such as Gaussian mixture log liklihood; Kolmogoroc-Smirnov test for comparing the cumulative distribution function of two continuous variables and the chi-squared test for comparing discrete distributions.  
+* **Statistical Outcome Comparisons** such as [Voas Williamson statistic](https://onlinelibrary.wiley.com/doi/abs/10.1002/1099-1220%28200009/10%296%3A5%3C349%3A%3AAID-IJPG196%3E3.0.CO%3B2-5) (measures variance versus degrees of freedom for various combinations within the data); and use of [propensity scores](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/568) (This paper demonstrates the equivalency of these two approaches [Guidelines for Producing Useful Synthetic Data](https://arxiv.org/pdf/1712.04078.pdf)).  Kullback-Leiber divergenece, Gower distance and the Wasserstein metric can all be used to investigate an aggregate difference between the synthetic and ground truth data.
+* **Off-Manifold and Latent Space checks** - consider using principal component analysis (PCA) or [t-distributed stochastic neighbor embedding](https://distill.pub/2016/misread-tsne/) (t-SNE) to visualise any new variable combinations created 
+* **End Use Case Comparisons** - Running two statistical/machine learning models related to the end use-case on the raw and synthetic data to compare the resultant summary statistics 
+* **Detection Metrics** - Running a classifer (e.g. Logistic of SVM) on both the synthetic and ground truth data to see how accurately this can distinguish the difference. 
 
 The Synthetic Data Vault project has a section on [Evaluation Framework](https://sdv.dev/SDV/user_guides/evaluation/evaluation_framework.html) built in python which includes a small suite of functions which can be viewed separately or aggregated to give an overall score for the synthetic data.  These functions include some of the statistical tests above as well as likelihood and detection metrics which compare the real and synthetic data when probabilistic and machine learning models are applied.  This implementation is available for single data tables, multi table situations and time series data. 
 
 The previously mentioned [BAE systems paper](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908629/ASC_0259_Study3_FinalReport_v1_2.pdf) creates a framework with a range of defined metrics dependent on the data being tested as well as testing DP-GANs, SDV and Presidio as 
+
+We are currently developing a generic testing notebook that applies many of these algorithms mostly using the SDV implmentations through python. 
 <br>
 
 ### Privacy
@@ -133,7 +137,9 @@ Some tests for privacy include:
 * **Uniqueness:** Combinations of values within the data (similar to the l-diversity model).  Some algorithms may force unique records to re-create the outlier!
 * **Can I find me?:** Practical test to see how much information a user would need to find a known subject 
 
-Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here, but instead we refer the reader to an excellent set of resources and active research programme at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/).
+Although all these tests are useful, none give a definitive metric which can be tested against.  **Differential Privacy** is the most established mathematical way of defining some level of privacy in the data.  This is a large field which won’t be covered here, but instead we refer the reader to an excellent set of resources and active research programme at the van der schaar-lab.  A summary article on their synthetic data thoughts can be found [here](https://www.vanderschaar-lab.com/synthetic-data-breaking-the-data-logjam-in-machine-learning-for-healthcare/).  We are currently reseaching the application of differential privacy using the established Stochastic gradient descent differential privacy and the more recent PATE (Private Aggregation of Teacher Ensembles) implementation. 
+
+Alongside this research we are looking into building a synthetic data adversarial suite which would quantify the privacy through simulated model inference attacks using shadow models.   
 
 [SmartNoise](https://github.com/opendp/smartnoise-core) - A pluggable open source library of differentially private algorithms and mechanisms for releasing privacy preserving queries and statistics, as well as APIs for defining an analysis and a validator for evaluating these analyses and composing the total privacy loss on a dataset.
 
@@ -207,6 +213,14 @@ MIMIC-III is a large, freely-available database comprising deidentified health-r
 
 ### Tools
 
+[SynthVAE](https://github.com/nhsx/SynthVAE)
+
+Fidelity = Medium/High
+
+Technique = Perturbations of the manifold - Variational AutoEncoder with Differential Privacy
+
+An NHSX Data Science Intern Project focussed on developing an open source tool for generating medium fidelity data with high privacy.  USes the PyTorch implmentation of SGD-DP.  
+
 [Synthetic LS data :: CALLS-HUB](https://calls.ac.uk/guides-resources/synthetic-ls-data/)
 
 Fidelity = Medium
@@ -273,7 +287,7 @@ A number of open-source libraries, tutorials and other useful resources
 
 Fidelity = Medium
 
-Technique = Agent Based SImulation
+Technique = Agent Based Simulation
 
 *Currently at Proof Of Concept Stage*
 Open Patient Pathway Generator using and an agent based approach

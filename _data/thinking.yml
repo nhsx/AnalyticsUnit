@@ -44,7 +44,7 @@
   image: assets/img/graph.jpg
   description: This thought stream is focussed on the application of synthetic data in healthcare and targeted at analysts in the NHS considering if, and how to implement a synthetic data generation tool.
   author: Jonny Pearson
-  date: August 2021
+  date: December 2021
 
 - title: Experiences of Accessing Open Source Tools in the NHS
   link: experiences.html
