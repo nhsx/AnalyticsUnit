@@ -29,14 +29,14 @@ To address the problem of standard variable importance tools only evaluating one
 
 ## Model Class Reliance
 
-MCR was developed by [Fisher et al.](Fisher, A., Rudin, C. & Dominici, F. All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Studying an Entire Class of Prediction Models Simultaneously. J. Mach. Learn. Res. 20, 1-81 (2019)) to compute the feature importance bounds across all optimal models called the Rashomon set for Kernel (SVM) Regression (polynomial run-time). [Smith, Mansilla and Goulding]( Smith, G., Mansilla, R. & Goulding, J. Model Class Reliance for Random Forests. Advances in Neural Information Processing Systems 33 (2020)) introduced a new technique that extends the computation of MCR to Random Forest classifiers and regressors. 
+MCR was developed by [Fisher et al.](Fisher, A., Rudin, C. & Dominici, F. All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Studying an Entire Class of Prediction Models Simultaneously. J. Mach. Learn. Res. 20, 1-81 (2019)) to compute the feature importance bounds across all optimal models called the Rashomon set for Kernel (SVM) Regression (polynomial run-time). [Smith, Mansilla and Goulding]( Smith, G., Mansilla, R. & Goulding, J. Model Class Reliance for Random Forests. Advances in Neural Information Processing Systems 33 (2020)) introduced a new technique that extends the computation of MCR to Random Forest classifiers and regressors.  This new technique is being developed as part of the [UKRI CIVIC project](https://gtr.ukri.org/projects?ref=EP%2FV053922%2F1).
 
 MCR builds on permutation importance for a single model, computing the permutation feature importance bounds (MCR-, MCR+) for an input variable across all instances of the predictive model; calculating the minimum and maximum impact a variable could have on the predictions across all instances of the model. 
 
 ![Diagrammatic representation of the difference between other variable importance tools and
 MCR](assets/img/MCR.png)
 
-The base MCR analysis evaluates each feature individually for its importance, for example the importance of ‘minimum temperature’. It does not assess how important a dataset type used to create a number of the models’ features was to predictions as a whole, for example ‘weather’.  A [Group-MCR](https://cdt.horizon.ac.uk/2021/12/17/cdt-student-paper-accepted-at-the-ieee-big-data-2021-conference/) version has also been created in order to calculate the effects of variable groups, measuring the importance of a collection of features together on the predictions (See main project report for more details).
+The base MCR analysis evaluates each feature individually for its importance, for example the importance of ‘minimum temperature’. It does not assess how important a dataset type used to create a number of the models’ features was to predictions as a whole, for example ‘weather’.  A [Group-MCR](https://ieeexplore.ieee.org/abstract/document/9671559?casa_token=F3GX0kqkGr0AAAAA:A4dT_VksM3_eSvrIaUJv8Y2OBp08bwH1wcZvRQxU4K017UkddLRkKdKFBLMVLCRRr4dcTDCCZMw) version has also been created in order to calculate the effects of variable groups, measuring the importance of a collection of features together on the predictions (See main project report for more details).
 
 ## Use in Healthcare Predictions
 
