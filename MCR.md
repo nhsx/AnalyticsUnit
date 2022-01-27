@@ -29,7 +29,7 @@ To address the problem of standard variable importance tools only evaluating one
 
 ## Model Class Reliance
 
-MCR was developed by [Fisher et al.](https://arxiv.org/abs/1801.01489) to compute the feature importance bounds across all optimal models called the Rashomon set for Kernel (SVM) Regression (polynomial run-time). [Smith, Mansilla and Goulding]( Smith, G., Mansilla, R. & Goulding, J. Model Class Reliance for Random Forests. Advances in Neural Information Processing Systems 33 (2020)) introduced a new technique that extends the computation of MCR to Random Forest classifiers and regressors.  This new technique is being developed as part of the [UKRI CIVIC project](https://gtr.ukri.org/projects?ref=EP%2FV053922%2F1).
+MCR was developed by [Fisher et al.](https://arxiv.org/abs/1801.01489) to compute the feature importance bounds across all optimal models called the Rashomon set for Kernel (SVM) Regression (polynomial run-time). [Smith, Mansilla and Goulding](https://papers.nips.cc/paper/2020/hash/fd512441a1a791770a6fa573d688bff5-Abstract.html) introduced a new technique that extends the computation of MCR to Random Forest classifiers and regressors.  This new technique is being developed as part of the [UKRI CIVIC project](https://gtr.ukri.org/projects?ref=EP%2FV053922%2F1).
 
 MCR builds on permutation importance for a single model, computing the permutation feature importance bounds (MCR-, MCR+) for an input variable across all instances of the predictive model; calculating the minimum and maximum impact a variable could have on the predictions across all instances of the model. 
 
