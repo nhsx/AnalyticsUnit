@@ -33,8 +33,8 @@ MCR was developed by [Fisher et al.](https://arxiv.org/abs/1801.01489) to comput
 
 MCR builds on permutation importance for a single model, computing the permutation feature importance bounds (MCR-, MCR+) for an input variable across all instances of the predictive model; calculating the minimum and maximum impact a variable could have on the predictions across all instances of the model. 
 
-![Diagrammatic representation of the difference between other variable importance tools and
-MCR](assets/img/MCR.png)
+<img src="assets/img/MCR.png" alt="Diagrammatic representation of the difference between other variable importance tools and
+MCR" width="800"/>
 
 The base MCR analysis evaluates each feature individually for its importance, for example the importance of ‘minimum temperature’. It does not assess how important a dataset type used to create a number of the models’ features was to predictions as a whole, for example ‘weather’.  A [Group-MCR](https://ieeexplore.ieee.org/abstract/document/9671559?casa_token=F3GX0kqkGr0AAAAA:A4dT_VksM3_eSvrIaUJv8Y2OBp08bwH1wcZvRQxU4K017UkddLRkKdKFBLMVLCRRr4dcTDCCZMw) version has also been created in order to calculate the effects of variable groups, measuring the importance of a collection of features together on the predictions (See main project report for more details).
 
