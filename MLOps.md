@@ -5,7 +5,9 @@ MLOps.html
 {{page.title}}
 Date: February 2021
 
-Post author: Paul Carroll - Senior Data Scientist, NHS Transformation Directorate (formally NHSX)
+Post author: 
+
+Paul Carroll - Senior Data Scientist, NHS Transformation Directorate (formally NHSX)
 
 Purpose
 
@@ -14,6 +16,7 @@ There will be a series of potentially weekly updates as I explore the means and 
 
 
 Sources
+
 A whole range of excellent github pages, books, webpage resources and online video guides. 
 
 
@@ -25,7 +28,9 @@ With these set up, the process can be run and tested using Github actions.
 Any updates or changes can be branched, run and tested, before pushing to the main branch. 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
 
-Step One -  Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
+Step One -  
+
+Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
 Your repo needs to have the following construct:
 #A gitignore file. This tells the repo which files to ignore. 
 .gitignore
@@ -114,6 +119,8 @@ Create your .yml file there.
 
 
 Spreading expertise and success
+      
+      
 Decreases wasted time on solving problems that has already solutions elsewhere
 Creates consistency and allows for comparison of work
 Enforces a transparent way of working increasing quality and assurance
@@ -136,9 +143,13 @@ Point 3 of the Technology code of Practice requires equal consideration to be gi
 The Open Data Charter was signed by G8 leaders on 18 June 2013. This sets out 5 strategic principles that all G8 members will act on. These include an expectation that all government data will be published openly by default, alongside principles to increase the quality, quantity and re-use of the data that is released. G8 members have also identified health as one of the 14 high-value areas from which they will release data. Their stated aim is to unlock the economic potential of open data, support innovation and provide greater accountability.
 
 Checks and best practice
+      
+      
 When sharing code there are a variety of potential issues to avoid and thus a code sharing way of working is useful to ensure the sharing is appropriate and useful. These issues include:
 
 Accidental leakage of data, secrets or intellectual property.
+      
+  
 Ownership and use
 Dependencies and versioning
 The tools and connected library versions of the developed code will likely be different from that being implemented by the end-user.
