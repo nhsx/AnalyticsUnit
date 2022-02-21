@@ -8,6 +8,7 @@ Date: February 2021
 Post author: Paul Carroll - Senior Data Scientist, NHS Transformation Directorate (formally NHSX)
 
 Purpose
+
 Examine and explore the difficulties and possibilites in setting up a MLOps framework as a Data Scientist, and leave resources for other NHS Data Scientists to follow, should they not have a developer at hand for this work. 
 There will be a series of potentially weekly updates as I explore the means and methods of pipelines and Machine Learning Operations for Data Science.
 
