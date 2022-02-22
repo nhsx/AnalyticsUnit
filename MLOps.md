@@ -16,6 +16,8 @@ Examine and explore the difficulties and possibilites in setting up a MLOps fram
 Sources
 
 A whole range of excellent github pages, books, webpage resources and online video guides. 
+https://github.com/microsoft/MLOps
+https://github.com/graviraja/MLOps-Basics
 
 
 Initial Task
