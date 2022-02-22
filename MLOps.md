@@ -186,6 +186,6 @@ Part Two to follow.......
 
 [2] Practitioner's Guide to MLOps. Whitepaper. Google 
 
-[3] Graviraja. MLOps-Basics. [Online] [https://github.com/graviraja/MLOps-Basics
+[3] Graviraja. MLOps-Basics. [Online] [https://github.com/graviraja/MLOps-Basics]
       
 [4] Visenger. Awesome-mlops, curated list [Online] [https://github.com/visenger/awesome-mlops]
