@@ -27,6 +27,7 @@ This is a github repo https://github.com/pauliecarroll/MLOps-1 where your model,
 With these set up, the process can be run and tested using Github actions. 
 Any updates or changes can be branched, run and tested to check the flow works, before pushing to the main branch. 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
+Please note I have leaned heavily on existing resources online to amalgamate this repo.
 
 Part One -  
 
