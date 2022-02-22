@@ -1,13 +1,14 @@
-layout	title	permalink
-base
-MLOps
-MLOps.html
-{{page.title}}
-Date: February 2021
+---
+layout: base
+title: MLOps Framework
+permalink: MLOps.html
+---
+
+<h2> {{page.title}} </h2>
 
 Post author: 
 
-Paul Carroll - Senior Data Scientist, NHS Transformation Directorate (formally NHSX)
+Paul Carroll - Senior Data Scientist, NHS Transformation Directorate.
 
 Purpose
 
