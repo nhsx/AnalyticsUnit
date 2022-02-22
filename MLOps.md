@@ -6,9 +6,7 @@ permalink: MLOps.html
 
 <h2> {{page.title}} </h2>
 
-Post author: 
-
-Paul Carroll - Senior Data Scientist, NHS Transformation Directorate.
+Date: February 2022\ Post author: Paul Carroll - Senior Data Scientist, NHS Transformation Directorate.
 
 Purpose
 
@@ -23,9 +21,9 @@ A whole range of excellent github pages, books, webpage resources and online vid
 Week One - Initial Task
 
 The first task in MLOps to set up Continuous Integration (CI) for the project. 
-This is a github repo where your model, your running code, shell scripts, gitignores, and yml files can be stored.
+This is a github repo where your model, your makefile, any shell scripts, the gitignore file, and yml files can be stored.
 With these set up, the process can be run and tested using Github actions. 
-Any updates or changes can be branched, run and tested, before pushing to the main branch. 
+Any updates or changes can be branched, run and tested to check the flow works, before pushing to the main branch. 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
 
 Step One -  
