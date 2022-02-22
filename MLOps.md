@@ -8,19 +8,12 @@ permalink: MLOps.html
 
 Date: February 2022\ Post author: Paul Carroll - Senior Data Scientist, NHS Transformation Directorate.
 
-Purpose
+#Purpose
 
 Examine and explore the difficulties and possibilites in setting up a MLOps framework as a Data Scientist, and leave resources for other NHS Data Scientists to follow, should they not have a developer at hand for this work. 
 
 
-Sources
-
-A whole range of excellent github pages, books, webpage resources and online video guides. 
-https://github.com/microsoft/MLOps
-https://github.com/graviraja/MLOps-Basics
-
-
-Initial Task
+#Initial Task
 
 The first task in MLOps to set up Continuous Integration (CI) for the project. 
 This is a github repo https://github.com/pauliecarroll/MLOps-1 where your model, your makefile, any shell scripts, the gitignore file, and yml files can be stored.
@@ -29,7 +22,7 @@ Any updates or changes can be branched, run and tested to check the flow works, 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
 Please note I have leaned heavily on existing resources online to amalgamate this repo.
 
-Part One -  
+#Part One -  
 
 Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
 Your repo needs to have the following construct:
@@ -187,3 +180,12 @@ This is a very simple example of how to view Continuous Integration. The files c
 
 Part Two to follow.......
       
+## References
+
+[1] Practical MLOps (2021). Noah Gift. O'Reilly
+
+[2] Practitioner's Guide to MLOps. Whitepaper. Google 
+
+[3] Graviraja. MLOps-Basics. [Online] [https://github.com/graviraja/MLOps-Basics
+      
+[4] Visenger. Awesome-mlops, curated list [Online] [https://github.com/visenger/awesome-mlops]
