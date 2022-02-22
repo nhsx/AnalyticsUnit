@@ -31,8 +31,11 @@ Step One -
 
 Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
 Your repo needs to have the following construct:
+
 #A gitignore file. This tells the repo which files to ignore. 
+
 .gitignore
+
 1 python
 
 2
@@ -40,7 +43,9 @@ Your repo needs to have the following construct:
 3 .Python
 
 #A python function file, or your python function file
+
 hello.py 
+
 1 def multiply(a,b,c):
 
 2     
@@ -54,7 +59,9 @@ hello.py
 6 #this function should give the answer to 3 * 4 * 5 = 60.
 
 #requirements.txt file. Lists the repo packages needed
+
 requirements.txt
+
 1 pytest
 
 2 pylint
@@ -72,7 +79,9 @@ test_hello.py
       assert 60 == multiply(3,4,5)
       
 #Makefile. This file runs commands and is essential in CI.
+
 Makefile
+
 1 install:
 
 2         pip install --upgrade pip && pip install -r requirements.txt
@@ -108,6 +117,7 @@ These are the files needed to build a CI platform.
 
 Once these files are in place, a .yml file needs to be created in order to configure Continuous Integration using Github Actions.
 path for this is: <your-repo>/.github/workflows/<your-repo>.yml
+      
 Create your .yml file there.
   
 1 name: Azure Python 3.7
