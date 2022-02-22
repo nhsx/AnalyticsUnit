@@ -177,28 +177,10 @@ Create your .yml file there.
       
 29           make test
   
-
-
-
-Spreading expertise and success
+Committing the .yml file to the workflow folder should trigger github actions to run, and the build to take place. If this doesn't happen click on actions in the menu repo, then click on the name of the .yml file in the centre of the screen, then top right, re-run all jobs. If you then click 'build' you will see the jobs taking place, and within each of these the executed code. 
       
+This is a very simple example of how to view Continuous Integration. The files can be edited and re-tested at any point on the main branch, or better on a different branch, before being merged into the main branch. 
 
-Documentation
-Add Readme (Example) and contributing guides to all repositories to help everyone understand the basic usage and set way of working. Consider including in the README:
-Overview of the required software/package/library versions and how to get them.
-Notes on upgrading the environment and dependencies
-Description of major packages and techniques used
-Description of each file, including working files, log files, configs.
-Be clear about who is responsible for maintaining the code and how often this occurs (including if this isn’t actively maintained)
-Add a License and appropriate copyright:
-Consider using MIT for code and OGLv3 or GPLv3 for documentation as default. However, other open licenses may be more appropriate for the individual case.
-Note: when setting up a new github repo with an MIT license it will automatically insert the github username against the © - you’ll often want to change this.
-Contributions guidelines:
-The GOV.UK Frontend contribution guidelines
-The GOV.UK style guide for pull requests
-requirements.txt file:
-This can be used, along with components such as setup.sh, to quickly facilitate the installations of specific dependencies and package versions.
-This increases the portability of the developed code and provides a source of information for security evaluations.
-Version control
-Even if you think you’ll be the only person to ever use the code or that it will remain static, still use a versioning system either locally or through a repo hosting service.
 
+
+      
