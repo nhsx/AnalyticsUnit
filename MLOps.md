@@ -18,15 +18,15 @@ Sources
 A whole range of excellent github pages, books, webpage resources and online video guides. 
 
 
-Week One - Initial Task
+Initial Task
 
 The first task in MLOps to set up Continuous Integration (CI) for the project. 
-This is a github repo where your model, your makefile, any shell scripts, the gitignore file, and yml files can be stored.
+This is a github repo https://github.com/pauliecarroll/MLOps-1 where your model, your makefile, any shell scripts, the gitignore file, and yml files can be stored.
 With these set up, the process can be run and tested using Github actions. 
 Any updates or changes can be branched, run and tested to check the flow works, before pushing to the main branch. 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
 
-Step One -  
+Part One -  
 
 Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
 Your repo needs to have the following construct:
@@ -182,5 +182,5 @@ Committing the .yml file to the workflow folder should trigger github actions to
 This is a very simple example of how to view Continuous Integration. The files can be edited and re-tested at any point on the main branch, or better on a different branch, before being merged into the main branch. 
 
 
-
+Part Two to follow.......
       
