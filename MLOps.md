@@ -10,7 +10,7 @@ Date: February 2022\ Post author: Paul Carroll - Senior Data Scientist, NHS Tran
 
 #Purpose
 
-Examine and explore the difficulties and possibilites in setting up a MLOps framework as a Data Scientist, and leave resources for other NHS Data Scientists to follow, should they not have a developer at hand for this work. 
+Examine and explore the difficulties and possibilites in setting up a MLOps framework as a Data Scientist, and leave resources for other NHS Data Scientists to follow. 
 
 
 #Initial Task
