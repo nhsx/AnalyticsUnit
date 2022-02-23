@@ -81,32 +81,17 @@ Makefile
 
 2         pip install --upgrade pip && pip install -r requirements.txt
 
-3
+3 lint: 
 
-4 install-gcp:
+4        pylint --disable=R,C hello.py
 
-5         pip install --upgrade pip && pip install -r requirements-gcp.txt
+5 format:
 
-6
+6        black *.py
 
-7 install-aws:
+7 test:
 
-8         pip install --upgrade pip && pip install -r requirements-aws.txt
-
-9
-
-10 lint: 
-
-11        pylint --disable=R,C hello.py
-
-
-12 format:
-
-13        black *.py
-
-14 test:
-
-15       python -m pytest -vv --cov=hello test_hello.py 
+8       python -m pytest -vv --cov=hello test_hello.py 
 
 These are the files needed to build a CI platform. 
 
