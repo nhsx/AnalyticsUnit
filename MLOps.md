@@ -20,7 +20,7 @@ This is a github repo https://github.com/pauliecarroll/MLOps-1 where your model,
 With these set up, the process can be run and tested using Github actions. 
 Any updates or changes can be branched, run and tested to check the flow works, before pushing to the main branch. 
 The CI process is vital in MLOps as this allows code to be run and tested ahead of deployment.
-Please note I have leaned heavily on existing resources online to amalgamate this repo.
+
 
 #Part One -  
 
@@ -178,7 +178,7 @@ Committing the .yml file to the workflow folder should trigger github actions to
 This is a very simple example of how to view Continuous Integration. The files can be edited and re-tested at any point on the main branch, or better on a different branch, before being merged into the main branch. 
 
 
-Part Two to follow.......
+Part Two to follow, involving Docker and automating the pipeline.
       
 ## References
 
