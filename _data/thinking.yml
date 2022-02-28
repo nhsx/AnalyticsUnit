@@ -1,3 +1,11 @@
+- title: Model Class Reliance
+  link: MCR.html
+  stage: interested
+  image: assets/img/Short-term-future.jpeg
+  description: Highlighting Model Class Reliance as a tool for variable importance in predictive models
+  author: Analytics Unit
+  date: January 2022
+
 - title: Open Source Tool Requests
   link: toolstackrequests.html
   stage: interested
