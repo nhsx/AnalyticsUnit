@@ -27,71 +27,40 @@ The CI process is vital in MLOps as this allows code to be run and tested ahead 
 Create a new repo. Here you can either follow my instructions and set up your repo as per below, clone the github repo I've set up, or do both and codealong as you clone and adapt the repo to your own code. 
 Your repo needs to have the following construct:
 
-#A gitignore file. This tells the repo which files to ignore. 
+#A gitignore file. This tells the repo to ignore the workflow files that are written in python, or .py files. 
 
 .gitignore
 
-1 python
+![image](https://user-images.githubusercontent.com/97230649/156123731-06508e2c-97c7-4164-9f95-0cfc68666254.png)
 
-2
-
-3 .Python
 
 #A python function file, or your python function file
 
 hello.py 
 
-1 def multiply(a,b,c):
+![image](https://user-images.githubusercontent.com/97230649/156123046-a590de3d-2717-48ad-ab50-82749ba6ee57.png)
 
-2     
-
-3     return a * b * c
-
-4
-
-5 print(multiply(3,4,5))
-
-6 #this function should give the answer to 3 * 4 * 5 = 60.
 
 #requirements.txt file. Lists the repo packages needed
 
 requirements.txt
 
-1 pytest
+![image](https://user-images.githubusercontent.com/97230649/156123125-687c83d5-e13b-4286-92c8-39eabaacc3c0.png)
 
-2 pylint
-
-3 pytest-cov
-
-4 click
 
 #test_hello.py file. This tests the function. 
-test_hello.py
-1 from hello import multiply
-2
 
-3 def test_multiply():
-      assert 60 == multiply(3,4,5)
+test_hello.py
+
+![image](https://user-images.githubusercontent.com/97230649/156123541-3a1ed560-8cef-4f30-a124-44db2e90c9f7.png)
+      
       
 #Makefile. This file runs commands and is essential in CI.
 
 Makefile
 
-1 install:
+![image](https://user-images.githubusercontent.com/97230649/156123633-79115f91-66d8-4d3a-b4f3-6f5a611b29c8.png)
 
-2         pip install --upgrade pip && pip install -r requirements.txt
-
-3 lint: 
-
-4        pylint --disable=R,C hello.py
-
-5 format:
-
-6        black *.py
-
-7 test:
-
-8       python -m pytest -vv --cov=hello test_hello.py 
 
 These are the files needed to build a CI platform. 
 
@@ -100,63 +69,7 @@ path for this is: <your-repo>/.github/workflows/<your-repo>.yml
       
 Create your .yml file there.
   
-1 name: Azure Python 3.7
-      
-2 
-      
-3 on: [push]
-      
-4 
-      
-5 jobs:
-      
-6   build:
-      
-7     runs-on: ubuntu-latest
-      
-8     
-      
-9     steps:
-      
-10     
-      
-11       - uses: actions/Checkout@v2
-      
-12       
-      
-13       - name: Set up Python 3.7.12
-      
-14      
-      
-15         uses: actions/setup-python@v1
-      
-16         with:
-      
-17           python-version: 3.7.12
-      
-18          
-      
-19       - name: Install dependencies
-      
-20          run: |
-      
-21           make install
-      
-22          
-      
-23       - name: Lint
-      
-24         run: |
-      
-25           make lint
-      
-26           
-      
-27       - name: Test
-      
-28         run: |
-      
-29           make test
+![image](https://user-images.githubusercontent.com/97230649/156123868-fb341ffb-7962-4011-80f6-2762ac96e7e6.png)
   
 Committing the .yml file to the workflow folder should trigger github actions to run, and the build to take place. If this doesn't happen click on actions in the menu repo, then click on the name of the .yml file in the centre of the screen, then top right, re-run all jobs. If you then click 'build' you will see the jobs taking place, and within each of these the executed code. 
       
