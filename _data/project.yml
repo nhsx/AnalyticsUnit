@@ -1,6 +1,24 @@
+- title: Open Cyber
+  link: https://nhsx.github.io/open-cyber/
+  stage: Complete
+  badge1: Cyber Security
+  badge2: Compliance
+  badge3: Open Analytics
+  description: Summary statistics from the DSPT 2020/21 toolkit
+  author: Martina Fonseca
+
+- title: GP Mapping
+  link: https://nhsx.github.io/gp_mapping/
+  stage: Complete
+  badge1: Primary Care
+  badge2: Mapping
+  badge3: Open Analytics
+  description: This page tracks the number of patients registered at individual GP Practices
+  author: Mattia Ficarelli
+  
 - title: The Prescribing Cost of Antibiotics
   link: https://nhsx.github.io/antibiotic_cost/
-  stage: Delivery
+  stage: Complete
   badge1: Open Analytics
   badge2: Open Prescribing
   badge3: Python
@@ -18,7 +36,7 @@
 
 - title: Digital Health Insights
   link: https://nhsx.github.io/digital-health-insights/
-  stage: Delivery
+  stage: Complete
   badge1: GP Patient Survey
   badge2: Digital Health
   badge3: Open Analytics
@@ -36,7 +54,7 @@
 
 - title: eLfH-PHM-RiskStrat
   link: https://github.com/nhsx/eLfH-PHM-RiskStrat
-  stage: Dissemination
+  stage: Complete
   badge1: R  
   badge2: Prediction
   badge3: Analytics
@@ -70,6 +88,24 @@
   description: A library for generating synthetic electronic health records in FHIR v4 format using agent-based modeling to simulate patient pathways.
   author: Jonny Pearson
 
+- title: AU Data Engineering - Azure Databricks
+  link: https://github.com/nhsx/au-azure-databricks
+  stage: Delivery
+  badge1: Data Engineering
+  badge2: Azure
+  badge3: ETL Pipelines
+  description: Our public facing store of code used to transform our data flows using databricks compute
+  author: Craig Shenton & Mattia Ficarelli
+
+- title: AU Data Engineering
+  link: https://github.com/nhsx/au-data-engineering
+  stage: Delivery
+  badge1: Data Engineering
+  badge2: Azure
+  badge3: ETL Pipelines
+  description: Our public facing store of code used to orchestrate our data flows
+  author: Craig Shenton & Mattia Ficarelli
+
 - title: Transform
   link: https://github.com/nhsx/transform
   stage: Dissemination
@@ -81,7 +117,7 @@
 
 - title: NHSX Academic publications
   link: https://nhsx.github.io/nhsx-publications/
-  stage: Delivery
+  stage: Complete
   badge1: Open Analytics
   badge2: Publications
   badge3: Python
@@ -105,3 +141,4 @@
   badge3: Synthetic
   description: SynPath module for generating type 2 diabetes pathway
   author: Jonny Pearson (on behalf of Tiyi Morris)
+
