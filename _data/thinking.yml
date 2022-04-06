@@ -1,3 +1,11 @@
+- title: NHS Language Corpus - Discovery
+  link: languagecorpusdiscovery.html
+  stage: interested
+  image: assets/img/books.jpg
+  description: Description of a short discovery project exploring building a language corpus with a focus on the NHS 
+  author: Dan Schofield
+  date: Easter 2022
+
 - title: Model Class Reliance
   link: MCR.html
   stage: interested
