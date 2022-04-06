@@ -1,3 +1,12 @@
+- title: NHS Language Corpus Discovery Tools
+  link: https://github.com/nhsx/language-corpus-tools
+  stage: Discovery
+  badge1: Natural Language Processing
+  badge2: Dataset Building
+  badge3: Open
+  description: Tools used as part of the NHS Language Corpus Discovery
+  author: Dan Schofield
+
 - title: Open Cyber
   link: https://nhsx.github.io/open-cyber/
   stage: Complete
@@ -127,7 +136,7 @@
 - title: SynthVAE
   link: https://github.com/nhsx/SynthVAE
   stage: Complete
-  badge1: PHD Data Science Intern Scheme
+  badge1: PhD Data Science Intern Scheme
   badge2: Variational AutoEnconder
   badge3: Synthetic
   description: Synthetic data generation by a Variational AutoEncoder with Differential Privacy assessed using Synthetic Data Vault metrics
@@ -136,7 +145,7 @@
 - title: SynPath - Diabetes
   link: https://github.com/nhsx/SynPath_Diabetes
   stage: Complete
-  badge1: PHD Data Science Intern Scheme
+  badge1: PhD Data Science Intern Scheme
   badge2: Simulation
   badge3: Synthetic
   description: SynPath module for generating type 2 diabetes pathway

@@ -35,7 +35,7 @@ permalink: howto.html
 
 ## Update this website
 
-1. Install Ruby, Jekyll and Bundle on your system (For Mac see <https://jekyllrb.com/docs/installation/macos/> for help and use homebrew; For Windows see [here](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows.html))
+1. Install Ruby, Jekyll and Bundle on your system (For Mac see <https://jekyllrb.com/docs/installation/macos/> for help and use [homebrew](https://brew.sh/); For Windows see [here](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_install_jekyll_on_windows.html))
 2. Clone <https://github.com/nhsx/AnalyticsUnit>
 2. Create a new branch
 3. In ther terminal, navigate to the repo folder and execute `bundle`
@@ -51,7 +51,7 @@ permalink: howto.html
 8. On github, make a new `Pull request` (PR)
 9. Ask another team member to review the PR and merged into the live website!
 
-**Alternatively**, for small changes such as the addtions listed below, you can ammend the `.ymls` and add assets/markdowns directly on github but please do this within a branch and pull request rather than directly on to the main.
+**Alternatively**, for small changes such as the addtions listed below, you can ammend the `.yml` and add assets/markdowns directly on github but please do this within a branch and pull request rather than directly on to the main.
 
 ## Add Projects
 
