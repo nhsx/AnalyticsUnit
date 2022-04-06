@@ -6,28 +6,28 @@
   author: Dan Schofield
   date: Easter 2022
 
-- title: Assessing Privacy of Generated Synthetic Data through Friendly Motivated Attacks - Synthetic Adversarial Suite
+- title: Privacy through Motivated Attacks - Synthetic Adversarial Suite
   link: SynthAdvSuite.html
   stage: interested
   image: assets/img/privacy.jpeg
   description: Highlighting Model Class Reliance as a tool for variable importance in predictive models
-  author: Analytics Unit
+  author: Jonny Pearson
   date: March 2022
  
-- title: Generating Patient Pathways using a Simulation Approach - SynPath
+- title: Generating Patient Pathways - SynPath
   link: SynPath.html
   stage: interested
   image: assets/img/Pathway2.jpg
   description: Brief overview of an exploration into building the foundations of a generalised patient pathway simulator
-  author: Analytics Unit
+  author: Jonny Pearson
   date: May 2021
  
-- title: Generating high-fidelity tabular numeric/categorical data - SynthVAE
+- title: Generating tabular data - SynthVAE
   link: SynthVAE.html
   stage: interested
   image: assets/img/VAE.jpeg
   description: To investigate appropriate methods for generating synthetic data for healthcare we have developed a variational autoencoder to generate tabular data
-  author: Analytics Unit
+  author: Dom Danks and Jonny Pearson
   date: October 2021
 
 - title: Model Class Reliance
@@ -54,7 +54,7 @@
   author: Jonny Pearson
   date: October 2021
  
-- title: Increasing understanding of online consultation systems activity through OpenSAFELY
+- title: Understanding of online consultation activity through OpenSAFELY
   link: openSafely_onlineconsultations.html
   stage: interested
   image: assets/img/open-safely.png
