@@ -20,6 +20,7 @@ In order to incorporate differential privacy within a tool that would be able to
  
 1. it clips the gradients corresponding to any particular example (intuitively this can be thought of as preventing the model overfitting to outliers, hence sacrificing their privacy) and
 2. it adds noise to the gradients.  
+
 An alternative approach would be to use Private Aggregation of Teacher Ensembles (PATE).  This involves the training of multiple “teacher” models, each trained on a separate partition of the dataset.  A “student” model is then trained using noised outputs of the teacher models.  This student model is the final output of the training procedure and has a calculable differential privacy budget.  
  
 The benefits of DP-SGD over PATE is its conceptual and implementation simplicity but a valid future direction could be to investigate the application of PATE to SynthVAE. 
