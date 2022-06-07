@@ -15,11 +15,11 @@ This scheme aims to connect NHS real data and issues with academic thought and r
 
 We are looking for PhD students working in a quantitative discipline but with an interest in applying their knowledge and gaining experience of creating solutions for the NHS.  Both student and university will be funded during the duration of the internship covering between three and six months. 
 
-Our aim is to continually build on previous learning whilst having an avenue for including the latest research and approaches.  Where possible we will work in an open and transparent way ensuring that learning is shared and insights made available for others to reproduce.  At the end of the project the applicant will submit a final report suitable for publication in open literature, and presentations to NHSX on their results including their experience of the project.  The nature of the output will depend on the specific project.
+Our aim is to continually build on previous learning whilst having an avenue for including the latest research and approaches.  Where possible we will work in an open and transparent way ensuring that learning is shared and insights made available for others to reproduce.  At the end of the project the applicant will submit a final report suitable for publication in open literature, and presentations to NHS England on their results including their experience of the project.  The nature of the output will depend on the specific project.
 
 Key priorities of the internship will be:
 - Safe and appropriate use of NHS data
-- To producing a balanced outcome for both the student and NHSX, with useable outputs 
+- To producing a balanced outcome for both the student and NHS England, with useable outputs 
 - To provide the student(s) with experience of completing a live business project
 - To provide the NHS with an avenue to experience current research and ideas
 - To kick-start or accelerate current projects and ideas 
@@ -27,26 +27,23 @@ Key priorities of the internship will be:
 
 ### The Role
 
-The successful candidate will occupy a permanent role within the NHSX analytics unit.   During the internship the candidate will be expected to progress their chosen project autonomously with supervision from colleagues in the analytics unit as well as their current academic supervisor.   The candidate will be expected to be focussed on the project and self-driven during the internship period, providing regular updates on progress and issues. 
+The successful candidate will occupy a permanent role within the analytics unit.   During the internship the candidate will be expected to progress their chosen project autonomously with supervision from colleagues in the analytics unit as well as their current academic supervisor.   The candidate will be expected to be focussed on the project and self-driven during the internship period, providing regular updates on progress and issues. 
 
 Within the topic area of the chosen project, there will be some freedom to direct the development of the research and knowledge but this will also need to be balanced against creating a learning outcome or tangible output, that benefits the PhD scheme objectives and is in a shareable state for future projects to pick up and continue the development.
 
-As the candidate will be a NHSX employee during the internship period, standard employment checks and some mandatory training are required.
+As the candidate will be a NHS England employee during the internship period, standard employment checks and some mandatory training are required.
 
 Key aims for the intern will be:
-- Progress the research project ensuring learning/outcomes are shareable with NHSX and where appropriate made suitable for publication. 
+- Progress the research project ensuring learning/outcomes are shareable with NHS England and where appropriate made suitable for publication. 
 
 ### Projects
 
-A list of currently available projects can be found on the NHSX analytics unit site with links to project specific details on github.  These projects are continually being added to and we welcome project proposals from both prospective students and interested organisations.  
+A list of currently available projects can be found on the analytics unit site with links to project specific details on github.  These projects are continually being added to and we welcome project proposals from both prospective students and interested organisations.  
 
-During the Project Period, the Student will be allocated an NHSX supervisor and in some instances a project specific mentor.   It is also required that an academic supervisor from the hosting university is identified before the student can accept the internship place.  
+During the Project Period, the Student will be allocated an NHS England supervisor and in some instances a project specific mentor.   It is also required that an academic supervisor from the hosting university is identified before the student can accept the internship place.  
 
 ### Funding
-There are two payments associated with this scheme:
-
-- Applicant wage: For the entirety of the internship, the applicant would be paid as a NHS band 6 (spine point 1) post according to NHS Terms and Conditions (AfC) pay scales - Annual
-- University payment: An additional direct payment to the applicants university of £5,000 would be made to take account of the university contribution through continuing student supervision and intellectual support.
+For the entirety of the internship, the applicant would be paid as a NHS band 6 (spine point 1) post according to NHS Terms and Conditions (AfC) pay scales - Annual
   
 ### Application Process
 
@@ -67,9 +64,13 @@ Interviews 			    Late November
 
 Outcomes Communicated 	Early December
 
+January Wave Start      Mid-January
+
+June Wave Start      Mid-June
+
 ### How to Apply
 
-Application links will be made available on the [NHSX Analytics Unit website](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/apply-for-nhsx-analytics-unit-internship/) between the open and close dates
+Application links will be made available on the [Analytics Unit website](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/apply-for-nhsx-analytics-unit-internship/) between the open and close dates
 
 As part of the application you will be asked to specify which project(s) you are interested in and any relevant experience in these areas.
 
