@@ -1,3 +1,48 @@
+- title: STM for survey data
+  link: https://github.com/nhsx/stm-survey-text
+  stage: Complete
+  badge1: Free Text Analysis
+  badge2: STM
+  badge3: R
+  description: Application of Structural Topic Modelling and visualisation of insights.  Currently private repo but being made public soon
+  author: Anna Linton & Paul Carroll
+
+- title: Txt-Ray Align
+  link: https://github.com/nhsx/txt-ray-align
+  stage: Complete
+  badge1: Image Encoder
+  badge2: Text Encoder
+  badge3: Python
+  description: Code to contrastively train and align text and image encoders and evaluate them on an image-to-text retrieval task using MIMIC-CXR. Currently private repo but being made public soon
+  author: Dekai Zhang & Dan Schofield
+
+- title: Travel Times
+  link: https://github.com/nhsx/nhs_time_of_travel
+  stage: Delivery
+  badge1: Mapping
+  badge2: OSMnx
+  badge3: Python
+  description: PoC for an interactive mapping tool to support decision-making.
+  author: Mattia Ficarelli & Paul Carroll
+
+- title: Model Class Reliance
+  link: https://github.com/nhsx/commercial-data-healthcare-predictions
+  stage: Complete
+  badge1: Model Explainability
+  badge2: Commercial Data
+  badge3: Python
+  description: Internship project investigating the use of MCR to identify the value of including commerical sales data in respiratory predictions
+  author: Elizabeth Dolan
+
+- title: AIF ALlocation Streamlit Tool
+  link: https://github.com/nhsx/AIF_Allocation_Tool
+  stage: Complete
+  badge1: Collaborative Analytics
+  badge2: Streamlit
+  badge3: Python
+  description: Tool built to support need based allocations
+  author: Craig Shenton & Christopher Todd
+
 - title: NHS Language Corpus Discovery Tools
   link: https://github.com/nhsx/language-corpus-tools
   stage: Discovery
@@ -115,9 +160,18 @@
   description: Our public facing store of code used to orchestrate our data flows
   author: Craig Shenton & Mattia Ficarelli
 
+- title: Tableau Analytics
+  link: https://github.com/nhsx/au-tableau-analytics
+  stage: Delivery
+  badge1: Data Engineering
+  badge2: Tableau
+  badge3: Business Intelligence
+  description: Contains Tableau workbooks for NHSX analytics projects.
+  author: Ollie Jones & Mattia Ficarelli
+
 - title: Transform
   link: https://github.com/nhsx/transform
-  stage: Dissemination
+  stage: Complete
   badge1: Forecasts
   badge2: b-spline
   badge3: linear
@@ -135,7 +189,7 @@
 
 - title: SynthVAE
   link: https://github.com/nhsx/SynthVAE
-  stage: Complete
+  stage: Delivery
   badge1: PhD Data Science Intern Scheme
   badge2: Variational AutoEnconder
   badge3: Synthetic
