@@ -5,13 +5,9 @@ description: Who we are
 permalink: 
 ---
 
-**NHSX is now part of the NHS Transformation Directorate**
-
-Learn more at <https://www.nhsx.nhs.uk>
+**NHSX is now part of the NHS Transformation Directorate** - Learn more at <https://www.nhsx.nhs.uk>
 
 <h1>Welcome</h1>
-
-**This site is currently under trial and review**
 
 The NHS England Transformation Directorate Analytics Unit *(formerly NHSX Analytics Unit)* sees open ways of working as pivotal to increasing innovation and efficiency in the NHS.  This site has been created so we can share some focussed technical thoughts and examples.  
 

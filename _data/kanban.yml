@@ -1,8 +1,5 @@
 - name: Complete
   limit:
-  
-- name: Dissemination
-  limit:
 
 - name: Delivery
   limit:
