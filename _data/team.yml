@@ -30,8 +30,8 @@
 
 - name: Kevin Fasusi
   role: Senior Developer
-  image: assets/img/staff/Anon.jpg # Can be external link
-  email: kevin.fasusi@nhsx.nhs.uk
+  image: assets/img/staff/KevinFasusi.jpg # Can be external link
+  email: kevin.fasusi@nhs.net
   github: KevinFasusi
 
 - name: Arouba Zubair
