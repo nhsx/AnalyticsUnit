@@ -11,24 +11,24 @@ navigate interesting topics together (please don't @me about your system resourc
 
 ## Best Practice
 
-This week in best practice, Architectural Decision Record (ADR) because a ~~stitch~~ document in time saves nine. Have you ever read a codebase and wondered why they made that decision. Why was a particular library, design pattern, algorithm or tech-stack used? Then when asked by a new start or someone unfamiliar with the codebase you search through your emails for that thread where you and the team hashed it out and came to an agreement. This is a common situation and... it's an anti-pattern, the 'Email-Driven Architecture' anti-pattern. I want to shout from the rooftops "an email is not an appropriate document store". Like it or not communities, create cultures and cultures have tacit knowlegde that may or may not be shared. Explicitly stating why an important architectural decision was made, in a centralised place, can be an invaluable source of knowledge for those who come to the codebase after the decisions have been made. A caveat, I have also come to appreciate that shared documentation does not necessarily mean shared knowledge and that conversations are essential for good documentation. 
+This week in best practice, Architectural Decision Record (ADR) because a ~~stitch~~ document in time saves nine. Have you ever read a codebase and wondered why they made that decision? Why was a particular library, design pattern, algorithm or tech-stack used? Then, when asked by a new start or someone unfamiliar with the codebase you search through your emails for *that* thread where you and the team hashed it out and came to an agreement. This is a common situation and... it's an anti-pattern, the 'Email-Driven Architecture' anti-pattern. I want to shout from the rooftops "an email is not an appropriate document store". Like it or not, communities create cultures and cultures have tacit knowledge that may or may not be shared. Explicitly stating why an important architectural decision was made, in a centralised place, can be an invaluable source of knowledge for those who come to the codebase after the decisions have been made. A caveat, I have also come to appreciate that shared documentation does not necessarily mean shared knowledge and that conversations are essential for good documentation. 
 
 An ADR is a short plaintext document communicating architectural decisions. The ADR was first proposed by Michael Nygard and his template can be found on 
 [github](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md). You can read more about ADRs [here](https://github.com/joelparkerhenderson/architecture-decision-record).
 
 The ADR captures the scope of the decision by providing a:
 
-- Title	- An appropriate title captures the intent of the ADR, the essential nature of the decision should be captured. As an example, **Use a bash script for configuration and installation**.
+- Title	- An appropriate title captures the intent of the ADR, the essential nature of the decision should be captured. As an example, "**Use a bash script for configuration and installation**".
   
 - Status - The status reflects the condition of the ADR, for example: proposed; accepted; rejected; or deprecated.
   
 - Context - Providing information motivating the decision and its significance captures the context.
   
-- Decision - A description of the change proposed making explicit the proposition or work being undertaken.
+- Decision - A description of the change proposed, making explicit the proposition or work being undertaken.
  
 - Consequences - As a result, what becomes easier based on the proposed change?
 
-The ADRs can be kept in your code repository under a speperate directory structure. Interestingly, there is also a command line tool that will assist you in creating and maintaining an ADR called [adr-tools](https://github.com/npryce/adr-tools). However, you can always just fire up a terminal and using an editor (insert [editor wars](https://en.wikipedia.org/wiki/Editor_war) here) to write one in markdown. 
+The ADRs can be kept in your code repository under a speperate directory structure. Interestingly, there is also a command line tool that will assist you in creating and maintaining an ADR called [adr-tools](https://github.com/npryce/adr-tools). However, you can always just fire up a terminal and use your favourite text editor (insert [editor wars](https://en.wikipedia.org/wiki/Editor_war) here) to write one in markdown. 
 
 ## Technology of the week
 
