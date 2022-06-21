@@ -1,11 +1,25 @@
 ---
 layout: base
 title: Data Science Internships - Student Experiences
-description: A couple of our wave 1 PhD Data Science Interns share their experience of partaking in the scheme and suggests some tips for others applying in the future
+description: A couple of our PhD Data Science Interns share their experience of partaking in the scheme and suggests some tips for others applying in the future
 permalink: DSInternWave1Experience.html
 ---
 
 # {{page.title}}
+
+**Date:** June 2022\\
+**Post author:** David Brind\\
+**Git repository:** [SynthVAE - Development](https://github.com/nhsx/synthVAE)
+
+My name is Dave and I am a PhD student in healthcare data science at The University of Birmingham. I am affiliated with HDRUK as part of the second year cohort for their PhD programme. My focus is surrounding machine learning applications to cardiac datasets such as ultrasounds and routine EHR data. At the beginning of 2022 I was fortunate enough to undertake an internship within the Innovation branch of NHSX analytics unit. I was supervised by Dr Jonathan Pearson. My project was aimed at developing on previous work performed by Dom Danks surrounding variational autoencoders for synthetic data generation. 
+
+Briefly explaining our project, we were interested initially in improving the fidelity and privacy of the synthetic data that we generated. We desired a method to create data that retained important trends from the original set, however was privatised in such a way that information about patients in the original set could not be identified. Due to the flexible nature and independence provided by Jonny, he left me to take the project in my own unique direction. I introduced the idea of “de-biasing” datasets to SynthVAE. Bias and fairness is a key issue surrounding healthcare data and as synthetic data providers, we have an opportunity to break this trend by trying to mitigate any potential bias in the original training dataset. This project linked vaguely to my PhD in that, the methods used (deep generative models) were like the ones I have used in my research. However the modality was vastly different as most of my work has focused on imaging thus far. Privacy and fairness are also topics that have been of interest to me but unfortunately, I have not had opportunity to explore these. This internship gave me the perfect opportunity to simultaneously advance my knowledge in key PhD related areas, build knowledge in areas of interest that I may not otherwise get to experience and finally, shape the project to take it in the direction that I thought would provide the biggest benefit.
+
+My main motive for getting involved with the scheme was to experience the difference between working in a research environment compared to a more business style environment. I found this scheme was hugely beneficial to this and I would thoroughly recommend it to other PhD students. This internship will provide you with transferable skills both outside of your PhD, but also help build experience in applying the knowledge gained through your PhD to other topic areas. Make use of all the opportunities they provide through team meetings and engaging with the whole analytics unit to get the best experience.
+
+Good luck with your application!
+
+___
 
 **Date:** September 2021\\
 **Post author:** Tiyi Morris\\
