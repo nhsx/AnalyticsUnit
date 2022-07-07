@@ -5,3 +5,14 @@
   description: In this digest I share ADRs, gRPC and RSA.
   author: Kevin Fasusi
   date: June 2022
+
+- title: Kevin's Biweekly Digest No.002
+  link: kevin_digest_002.html
+  stage: interested
+  image: assets/img/container-ship.jpg
+  description: In this digest I share unit testing, Podman and the Diffie-Hellman algorithm.
+  author: Kevin Fasusi
+  date: July 2022
+
+
+
