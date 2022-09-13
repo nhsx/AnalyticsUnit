@@ -1,3 +1,21 @@
+- title: H4_12 - The role of Patient Initiated Follow-Up and Digital Outpatients in supporting the elctive recovery
+  link: https://github.com/nhsx/HSMA4-12-DES-rheum
+  stage: Complete
+  badge1: HSMA4 Project
+  badge2: discrete event simuation
+  badge3: simPy
+  description: Simulation of the role that PIFU and other interventions can play in addressing the elective backlog
+  author: Martina Fonseca
+
+- title: Using LIME to explain facial disease classification
+  link: https://github.com/nhsx/LIME-XAI-Facial-Disease-Classification
+  stage: Complete
+  badge1: LIME
+  badge2: XAI
+  badge3: Python
+  description: Application of Local Interoperable Model-agnostic Explanations to an InceptionV3 Classifyier looking at a Rosacea
+  author: Anwesha Mohanty
+
 - title: STM for survey data
   link: https://github.com/nhsx/stm-survey-text
   stage: Complete
