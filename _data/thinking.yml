@@ -1,3 +1,11 @@
+- title: Data Science Internships - Experience and Tips
+  link: DSInternWave1Experience.html
+  stage: interested
+  image: assets/img/Experience.jpeg
+  description: A couple of our PhD Data Science Interns share their experience of partaking in the scheme and suggests some tips for others applying in the future
+  author: Mulitple
+  date: June 2022
+
 - title: NHS Language Corpus - Discovery
   link: languagecorpusdiscovery.html
   stage: interested
@@ -69,14 +77,6 @@
   description: In this post, we aim to set out the data engineering principles we have developed in designing and building our Azure cloud-analytics infrastructure.
   author: Craig Shenton & Mattia Ficarelli
   date: September 2021
-
-- title: Data Science Internships - Experience and Tips
-  link: DSInternWave1Experience.html
-  stage: interested
-  image: assets/img/Experience.jpeg
-  description: A couple of our wave 1 PhD Data Science Interns share their experience of partaking in the scheme and suggests some tips for others applying in the future
-  author: Tiyi Morris and Dom Danks
-  date: October 2021
 
 - title: Synthetic Data in Healthcare
   link: synthetic.html
