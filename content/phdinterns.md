@@ -77,3 +77,52 @@ As part of the application you will be asked to specify which project(s) you are
 Applications will be sifted using a set of sifting questions to ensure the candidate fulfils the minimum requirements for this role.   Each question will be marked by three sifters using a score of 1 to 5.  The sifters will not be able to see any other material the candidate has provided whilst marking each individual question so please ensure each answer doesn’t refer to other materials and that all information and evidence is self-contained in the question.
 
 Interviews - The interviews will be conducted as a panel with competency based questions. During the interview process, candidates will be asked to provide further evidence of their interest, technical skill and experience.   You will also be asked to provide a statement of support for the internship from your PhD supervisor.
+
+### Ways of Working - Project Structure
+
+As these are short-term and remote projects we propose a minimum of weekly project check-ins with the NHS project supervisor.  The frequency can be increased if the project has a specific need.  Code reviews are encouraged as this increases the quality of code as well as ensuring the NHS supervisor understands the detailed progress of the work.  These meetings will focus on technical specifics and hurdles.
+ 
+More formal milestone meetings are also requeted in order to run the project past the innovation team for wider comment.  These meetings will focus on deliverables and project timeline.  
+ 
+It is expected at the beginning of the project that these milestones will be agreed between candidate and supervisor, and put in place to support monitoring of the project timelines, but should reflect releases of product / stages of the project where possible. 
+ 
+<img src="assets/img/milestoneTimeline.png" alt="Rough project structure with monthly milestones and linear sprints" width="800"/>
+
+Generally, we expect that the first couple of sprints are spent on background reading and scoping out the project (as well as some mandatory training).  We also use this time for data access and environment setup.  The project then usually moves to an exploratory phase before coming back to the project scope and finalising the main aims based off the exploration learning.  The final couple of sprints should ensure that enough time is left for code tidy-up and write-up as we recognise the importance and time taken to generate materials that clearly describe the work and outcomes as well as creating open assests that others will be able to pick-up and run themselves. 
+
+### Ways of Working - Project Outputs
+
+At the end of the project, we would look to have the following outputs alongside the codebase generated during the project:
+
+#### Mandatory
+
+**Project Code**
+
+The key output of the project is the code.   We ask that where possible this code is made open through github.  This github repo [template](https://github.com/nhsx/analyticsunit-template) is encouraged for interns to use.
+
+We will also ask all our interns to be aware of and follow our coding in the open guidance and checklists to ensure that the code released is appropriate.
+
+
+**Technical Report**
+
+To enable a future user to understand the code and learning.  Expect the reader to have some basic knowledge of the area and to have access to the repo with the final code in.  Reference placeholders in the code and include code/project story to help reader understand the "why have they used this approach" as well as the what.
+
+Suggest around 2-pages per month but depends on project need.
+ 
+**Project Overview Slides**
+
+5 - 20 slides with a focus on describing the project aims and achievements
+
+#### Optional
+
+**Experience Blog** (to go on technical store)
+
+half page description of internship experience with learning/feedback.  Optional to do this as a blog but we will need to capture some feedback please.
+ 
+**Technical Blog** (to go on technical store or sit as an io page on the repo)
+
+Focus on method/algorithm (e.g. Choice of sentiment library, VAE-DP, GPU requirements etc...) and acts as a stand alone explanation to others interested in the technique around it's nuances and use. 
+
+**Recorded run through**
+
+To support others to understand the project a 5-min recorded demonstration or talk could be considered.
