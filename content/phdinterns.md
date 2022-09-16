@@ -88,7 +88,7 @@ It is expected at the beginning of the project that these milestones will be agr
  
 <img src="assets/img/milestoneTimeline.png" alt="Rough project structure with monthly milestones and linear sprints" width="800"/>
 
-Generally, we expect that the first couple of sprints are spent on background reading and scoping out the project (as well as some mandatory training).  We also use this time for data access and environment setup.  The project then usually moves to an exploratory phase before coming back to the project scope and finalising the main aims based off the exploration learning.  The final couple of sprints should ensure that enough time is left for code tidy-up and write-up as we recognise the importance and time taken to generate materials that clearly describe the work and outcomes as well as creating open assests that others will be able to pick-up and run themselves. 
+Generally, we expect that the first couple of sprints are spent on background reading and scoping out the project (as well as some mandatory training).  We also use this time for data access and environment setup.  The project then usually moves to an exploratory phase before coming back to the project scope and finalising the main aims based off the exploration learning.  The final couple of sprints should ensure that enough time is left for code tidy-up and write-up as we recognise the importance and time taken to generate materials that clearly describe the work and outcomes as well as creating open assets that others will be able to pick-up and run themselves. 
 
 ### Ways of Working - Project Outputs
 
@@ -117,7 +117,7 @@ Suggest around 2-pages per month but depends on project need.
 
 **Experience Blog** (to go on technical store)
 
-half page description of internship experience with learning/feedback.  Optional to do this as a blog but we will need to capture some feedback please.
+Half page description of internship experience with learning/feedback.  Optional to do this as a blog but we will need to capture some feedback please.
  
 **Technical Blog** (to go on technical store or sit as an io page on the repo)
 
