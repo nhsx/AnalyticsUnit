@@ -54,19 +54,19 @@ Applicants will need:
 - to be enrolled in a PhD programme in a qualitative field of study (such as mathematics, statistics, data engineering, computer science, data science, physics, ...) during the course of the internship.
 - to provide a statement of current PhD supervisor support stating that the student is able to conduct this work alongside their study or that the student will take a break from their current funding whilst conducting this work
 
-### Timeline 
+### Timelines 
 
-Applications Open 		Early October
+**Applications Open** - Early October
 
-Applications Close 		Early November
+**Applications Close** - Early November
 
-Interviews 			    Late November
+**Interviews** - Late November
 
-Outcomes Communicated 	Early December
+**Outcomes Communicated** - Early December
 
-January Wave Start      Mid-January
+**January Wave Start** - Mid-January
 
-June Wave Start      Mid-June
+**June Wave Start** - Mid-June
 
 ### How to Apply
 
