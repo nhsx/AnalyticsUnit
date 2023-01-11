@@ -43,7 +43,7 @@
   stage: interested
   image: assets/img/Short-term-future.jpeg
   description: Highlighting Model Class Reliance as a tool for variable importance in predictive models
-  author: Analytics Unit
+  author: DART
   date: January 2022
 
 - title: Open Source Tool Requests
@@ -51,7 +51,7 @@
   stage: interested
   image: assets/img/openSourceTree.jpeg
   description: Description of the considerations and recommended process for requesting open source tools in the NHS
-  author: Analytics Unit
+  author: DART
   date: October 2021
 
 - title: Sharing Code in the Open
@@ -91,7 +91,7 @@
   stage: thought_stream
   image: assets/img/tools.jpeg
   description: Capturing some of the key points raised during interviews with NHS analysts regarding their experience of using open source software in the NHS
-  author: Analytics Unit
+  author: DART
   date: August 2021
 
 - title: OpenSafely and NHSX - Learning from our first collaboration

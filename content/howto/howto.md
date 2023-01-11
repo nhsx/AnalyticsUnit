@@ -9,9 +9,6 @@ permalink: howto.html
 - Only public github repos are to be added as projects.
 - Only the related individual to update their team content.
 - All "content" needs to go through an offline gateway (as creating a branch is still public) before pushing work to github.
-  - This gateway is currently a G-Drive folder in the Analytics Unit folders.
-  - Add content as a google doc.
-  - A content review (see below) is required by another member of the team before progressing the content to github.
 - When the branch is published, create a pull request with another member of the team as a reviewer to conduct a technical review focussed on the interaction with the website.
 
 **Content Review** (focus on ensuring the content is accurate, appropriate and clear)
