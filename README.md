@@ -1,6 +1,6 @@
-# Analytics Unit - Technical Store
+# Digital Analytics and Research Team - Technical Store
 
-For technical detail of current work going on in the Analytics Unit
+For technical detail of current work going on in the Digital Analytics and Research Team (DART)
 
 Uses https://service-manual.nhs.uk/
 

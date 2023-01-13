@@ -27,7 +27,7 @@ Key priorities of the internship will be:
 
 ### The Role
 
-The successful candidate will occupy a permanent role within the analytics unit.   During the internship the candidate will be expected to progress their chosen project autonomously with supervision from colleagues in the analytics unit as well as their current academic supervisor.   The candidate will be expected to be focussed on the project and self-driven during the internship period, providing regular updates on progress and issues. 
+The successful candidate will occupy a permanent role within the Digital Analytics and Research Team (DART).   During the internship the candidate will be expected to progress their chosen project autonomously with supervision from colleagues in the DART as well as their current academic supervisor.   The candidate will be expected to be focussed on the project and self-driven during the internship period, providing regular updates on progress and issues. 
 
 Within the topic area of the chosen project, there will be some freedom to direct the development of the research and knowledge but this will also need to be balanced against creating a learning outcome or tangible output, that benefits the PhD scheme objectives and is in a shareable state for future projects to pick up and continue the development.
 
@@ -38,7 +38,7 @@ Key aims for the intern will be:
 
 ### Projects
 
-A list of currently available projects can be found on the analytics unit site with links to project specific details on github.  These projects are continually being added to and we welcome project proposals from both prospective students and interested organisations.  
+A list of currently available projects can be found on the DART site with links to project specific details on github.  These projects are continually being added to and we welcome project proposals from both prospective students and interested organisations.  
 
 During the Project Period, the Student will be allocated an NHS England supervisor and in some instances a project specific mentor.   It is also required that an academic supervisor from the hosting university is identified before the student can accept the internship place.  
 
@@ -70,7 +70,7 @@ Applicants will need:
 
 ### How to Apply
 
-Application links will be made available on the [Analytics Unit website](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/apply-for-nhsx-analytics-unit-internship/) between the open and close dates
+Application links will be made available on the [DART website](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/apply-for-nhsx-analytics-unit-internship/) between the open and close dates
 
 As part of the application you will be asked to specify which project(s) you are interested in and any relevant experience in these areas.
 
