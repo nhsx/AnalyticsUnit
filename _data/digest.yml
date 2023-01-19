@@ -1,10 +1,10 @@
-- title: Kevin's Biweekly Digest No.001
-  link: kevin_digest_001.html
+- title: Seasonal Papers December 2022
+  link: seasonalpapersdec22.html
   stage: interested
-  image: assets/img/books2.jpg
-  description: In this digest I share ADRs, gRPC and RSA.
-  author: Kevin Fasusi
-  date: June 2022
+  image: assets/img/seasonal.jpeg
+  description: To finish the year off we decided to have a quick virtual journal club with mulled wine
+  author: Jonny Pearson
+  date: December 2022
 
 - title: Kevin's Biweekly Digest No.002
   link: kevin_digest_002.html
@@ -14,12 +14,10 @@
   author: Kevin Fasusi
   date: July 2022
 
-- title: Seasonal Papers December 2022
-  link: seasonalpapersdec22.html
+- title: Kevin's Biweekly Digest No.001
+  link: kevin_digest_001.html
   stage: interested
-  image: assets/img/seasonal.jpeg
-  description: To finish the year off we decided to have a quick virtual journal club with mulled wine
-  author: Jonny Pearson
-  date: December 2022
-
-
+  image: assets/img/books2.jpg
+  description: In this digest I share ADRs, gRPC and RSA.
+  author: Kevin Fasusi
+  date: June 2022
