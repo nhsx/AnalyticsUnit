@@ -55,7 +55,7 @@
 - name: Abdu Nuhu
   role: Senior Data Engineer
   image: assets/img/staff/Anon.jpg # Can be external link
-  email: a.nuhu@nhss.net
+  email: a.nuhu@nhs.net
   github: abdu-r
 
 - name: Mattia Ficarelli
@@ -74,7 +74,7 @@
   role: Moved to another team
   image: assets/img/staff/Mary.Amanuel.jpg # Can be external link
   email: mary.amanuel@nhsx.nhs.uk
-  github: maryamanuelnhsx
+  github: maryamanuel1
 
 - name: Craig Shenton
   role: Moved to another team
