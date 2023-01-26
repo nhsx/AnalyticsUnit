@@ -1,3 +1,48 @@
+- title: Time Series Forecasting
+  link: https://github.com/nhsx/Time_Series_Forecasting_MS
+  stage: Delivery
+  badge1: Forecasting
+  badge2: Prophet
+  badge3: SARIMA
+  description: Base starting code for comparative forecasting developed as part of a DDaT placement 
+  author: Milan Storey & Paul Carroll
+
+- title: Privacy Fingerprint
+  link: https://github.com/nhsx/PrivacyFingerprint
+  stage: Delivery
+  badge1: Text Data
+  badge2: Privacy
+  badge3: NLP
+  description: Public facing materials for our commission on creating a tool to identify sensitive elements beyond PII in text
+  author: Dan Schofield & Jonny Pearson
+
+- title: ESNEFT Analysis - Diabetes Inequalities
+  link: https://github.com/nhsx/p24-diabetes-inequal
+  stage: Complete
+  badge1: PHM Data
+  badge2: Data manipulation
+  badge3: OSNnx
+  description: One component of our Data Science Internship project on Inequalities in Population Health Data
+  author: Stephen Richer
+
+- title: DNAttend - ML framework for predicting patient non-attendance
+  link: https://github.com/nhsx/dna-risk-predict
+  stage: Complete
+  badge1: DNA Prediciton
+  badge2: CatBoost
+  badge3: PHM Data
+  description: One component of our Data Science Internship project on Inequalities in Population Health Data 
+  author: Stephen Richer
+
+- title: Discrete Event Simulation - Ambulances
+  link: https://github.com/nhsx/ambulance-DES
+  stage: Complete
+  badge1: Ambulance
+  badge2: Discrete event simuation
+  badge3: RSimmer
+  description: Proof of concept simmer discrete event simulation for the ambulance setting - used at NHS-R 2022 Conference
+  author: Martina Fonseca
+  
 - title: H4_12 - The role of Patient Initiated Follow-Up and Digital Outpatients in supporting the elctive recovery
   link: https://github.com/nhsx/HSMA4-12-DES-rheum
   stage: Complete
@@ -33,6 +78,15 @@
   badge3: Python
   description: Code to contrastively train and align text and image encoders and evaluate them on an image-to-text retrieval task using MIMIC-CXR. Currently private repo but being made public soon
   author: Dekai Zhang & Dan Schofield
+
+- title: System Hierarchies
+  link: https://github.com/nhsx/SystemHierarchies
+  stage: Delivery
+  badge1: Structure Mapping
+  badge2: Python
+  badge3: NHS
+  description: Aiming to visualise and represent the structure and mapping of different NHS organisations
+  author: Faaiz Shanawas
 
 - title: Travel Times
   link: https://github.com/nhsx/nhs_time_of_travel
@@ -168,6 +222,15 @@
   badge3: ETL Pipelines
   description: Our public facing store of code used to transform our data flows using databricks compute
   author: Craig Shenton & Mattia Ficarelli
+
+- title: AU Azure Databricks CICD
+  link: https://github.com/nhsx/au-azure-databricks-cicd
+  stage: Delivery
+  badge1: Data Engineering
+  badge2: Azure
+  badge3: ETL Pipelines
+  description: CICD implementation of our engineering pipelines
+  author: Mattia Ficarelli & Abdu Nuhu
 
 - title: AU Data Engineering
   link: https://github.com/nhsx/au-data-engineering

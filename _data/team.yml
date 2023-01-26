@@ -1,31 +1,25 @@
 - name: Jonny Pearson
   role: Lead Data Scientist
   image: assets/img/staff/Jonny.jpg # Can be external link
-  email: jonathan.pearson@nhsx.nhs.uk
+  email: jonathanpearson@nhs.net
   github: JRPearson500
 
 - name: Dan Schofield
   role: Senior Data Scientist
   image: assets/img/staff/dan.jpeg # Can be external link
-  email: daniel.schofield@nhsx.nhs.uk
+  email: daniel.schofield1@nhs.net
   github: danjscho
 
 - name: Martina Fonseca
   role: Senior Analyst
   image: assets/img/staff/martina.jpg # Can be external link
-  email: martina.fonseca@nhsx.nhs.uk
+  email: martina.fonseca@nhs.net
   github: mbfons
-
-- name: Mattia Ficarelli
-  role: Data Engineer
-  image: assets/img/staff/mattia.jpeg # Can be external link
-  email: mattia.ficarelli@nhsx.nhs.uk
-  github: mattia-ficarelli
 
 - name: Paul Carroll
   role: Senior Data Scientist
   image: assets/img/staff/Anon.jpg # Can be external link
-  email: paul.carroll@nhsx.nhs.uk
+  email: paul.carroll9@nhs.net
   github: pauliecarroll
 
 - name: Kevin Fasusi
@@ -34,35 +28,53 @@
   email: kevin.fasusi@nhs.net
   github: KevinFasusi
 
+- name: Christopher Todd
+  role: Senior Digital Analyst
+  image: assets/img/staff/ct.jpg # Can be external link
+  email: christopher.todd4@nhs.net
+  github: christodd-nhsx
+
+- name: Oli Jones
+  role: BI Developer
+  image: assets/img/staff/Anon.jpg # Can be external link
+  email: oliver.jones24@nhs.net
+  github: oliverjonesnhsx
+
+- name: Faaiz Shanawas
+  role: Data Analyst
+  image: assets/img/staff/Anon.jpg # Can be external link
+  email: muhammad-faaiz.shanawas@nhs.net 
+  github: faaiz-25
+
+- name: Andrew Sylvester
+  role: Economist
+  image: assets/img/staff/Anon.jpg # Can be external link
+  email: andrew.sylvester@nhs.net
+  github: Andrewsylv
+
+- name: Abdu Nuhu
+  role: Senior Data Engineer
+  image: assets/img/staff/Anon.jpg # Can be external link
+  email: a.nuhu@nhs.net
+  github: abdu-r
+
+- name: Mattia Ficarelli
+  role: Moved to another team
+  image: assets/img/staff/mattia.jpeg # Can be external link
+  email: mattia.ficarelli@nhsx.nhs.uk
+  github: mattia-ficarelli
+
 - name: Arouba Zubair
   role: Moved to another team
   image: assets/img/staff/Anon.jpg # Can be external link
   email: arouba.zubair@nhsx.nhs.uk
   github: Arouba
 
-- name: Christopher Todd
-  role: Senior Digital Analyst
-  image: assets/img/staff/ct.jpg # Can be external link
-  email: christopher.todd@nhsx.nhs.uk 
-  github: christodd-nhsx
-
-- name: Oli Jones
-  role: BI Developer
-  image: assets/img/staff/Anon.jpg # Can be external link
-  email: oliver.jones@nhsx.nhs.uk
-  github: oliverjonesnhsx
-
-- name: Faaiz Shanawas
-  role: Data Analyst
-  image: assets/img/staff/Anon.jpg # Can be external link
-  email: muhammad-faaiz.shanawas@nhsx.nhs.uk 
-  github: faaiz-25
-
 - name: Mary Amanuel
   role: Moved to another team
   image: assets/img/staff/Mary.Amanuel.jpg # Can be external link
   email: mary.amanuel@nhsx.nhs.uk
-  github: maryamanuelnhsx
+  github: maryamanuel1
 
 - name: Craig Shenton
   role: Moved to another team
