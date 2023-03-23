@@ -10,7 +10,7 @@ permalink: languagecorpusdiscovery.html
 
 **Post author:** Dan Schofield - Senior Data Scientist, NHS Transformation Directorate.
 
-**GitHub repository:** *To Be Added*
+**GitHub repository:** <https://github.com/nhsx/language-corpus-tools>
 
 *This blog discusses our discovery project on building a language corpus with a focus on the NHS, looking at useful open source tools which can help with ingestion, enrichment, and sharing of the text data.  The project looks to help address a current lack of NHS-specific text resources available for supporting development of Natural Language Processing (NLP) tools through various stages, such as training, benchmarking, and evaluation.*
 
