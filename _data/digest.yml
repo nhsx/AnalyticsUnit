@@ -1,3 +1,19 @@
+- title: Kevin's Biweekly Digest No.004
+  link: kevin_digest_004.html
+  stage: interested
+  image: assets/img/electronics.jpg
+  description: In this digest I share software supply chains, single board computers and bloom filters.
+  author: Kevin Fasusi
+  date: March 2023
+
+- title: Kevin's Biweekly Digest No.003
+  link: kevin_digest_003.html
+  stage: interested
+  image: assets/img/genetic-algo.jpg
+  description: In this digest I share Monorepos, Bazel and Genetic Algorithms.
+  author: Kevin Fasusi
+  date: February 2023
+
 - title: Seasonal Papers December 2022
   link: seasonalpapersdec22.html
   stage: interested
