@@ -4,7 +4,7 @@ title: Kevin’s Biweekly Tech Digest - No.002
 permalink: kevin_digest_002.html
 ---
 
-Welcome back for another installment of Kevin's biweekly tech digest. This week in best practice, we cover unit testing. In technology of the week we cover Podman 
+Welcome back for another instalment of Kevin's biweekly tech digest. This week in best practice, we cover unit testing. In technology of the week we cover Podman 
 an alternative to Docker and in algorithm of the week, we look at key exchange with the Diffie-Hellman algorithm.
 
 ## Best practice
@@ -12,16 +12,16 @@ an alternative to Docker and in algorithm of the week, we look at key exchange w
 If you have ever written code, then you have written a bug. Opening sentence and shots fired, although, this really should not be a controversial statement. 
 I have and I suspect you have too, so what steps can we take to verify our code is trustworthy? Writing idiomatic code helps and makes it easier for us and for others, 
 following the generally accepted conventions of your chosen language and software engineering, to read and fix the code. However, when all is said and done, 
-unit testing can assist you in ensuring you have sustainably updateable code that is trustworthy.  
+unit testing can assist you in ensuring you have sustainably updatable code that is trustworthy.  
 
 A unit test is defined as an automated test that verifies a small piece of code in isolation. Better software design, is not the goal of unit testing. 
-Unit test help to fight software entropy, reduce technical debt and maintain the quality of your code as you extend and imporve the codebase. 
+Unit test help to fight software entropy, reduce technical debt and maintain the quality of your code as you extend and improve the codebase. 
 Inadvertently, the process of writing good unit tests may highlight where the code is difficult to isolate and test, indirectly pushing for better software design.
 Unit tests provide fast feedback when updating code, however being able to test code does not mean the code or the tests are well-written. 
 Production code and test code are both still code and as such passing tests must also be maintained when changes are made to the code, infrastructure or 
-upstream dependncies. The diagnostic power of tests reduces when tests are not maintained increasing the chance of a serious regression (bug). 
-Unit testing must be adopted as part of a general engineering culture, with continuos integration / continuous deployment (CI/CD) 
-tools to assit in automating and monitoring test suites and help triage points of failure.
+upstream dependencies. The diagnostic power of tests reduces when tests are not maintained increasing the chance of a serious regression (bug). 
+Unit testing must be adopted as part of a general engineering culture, with continuous integration / continuous deployment (CI/CD) 
+tools to assist in automating and monitoring test suites and help triage points of failure.
 
 At the heart of a unit test is a unit of code. So, what is a unit of code? An isolated block of code --simples. Well, you will not be surprised to 
 know that there are two schools of thought on what constitutes a unit of code, the 'classical' and 'mockist' school. The two schools differ on the:
@@ -34,7 +34,7 @@ The mockist school requires the isolation of classes from all other dependencies
 dependencies must be mocked (:bell: shame!) using a simplified imitation. The logic behind using mocks and testing only the system 
 being developed is that any resulting failure can only come from the code under test. The classical school uses the 'Arrange', 'Act', and 'Assert' and
 does not require the decoupling of interdependencies between object. If a test fails in the classical school, it is possible that the failure 
-has been propagted from elsewhere in the code and not directly from the code under test.
+has been propagated from elsewhere in the code and not directly from the code under test.
 
 ### Coverage
 
@@ -59,7 +59,7 @@ A typical ratio for production code to test code can be between 1:1 and 1:3 line
 
 Code/Test coverage indicates how much of the production codebase is executed by at least one test.This test coverage metric is the most popular. 
 The branch coverage focusses on how many branches of the codebase's control logic (IF, FOR, SWITCH etc) are covered. 
-Increasing the number of lines of code in a test will not increase the coverage, if a code branch is continously ignored.
+Increasing the number of lines of code in a test will not increase the coverage, if a code branch is continuously ignored.
  
 ## Technology of the week
 
@@ -73,15 +73,15 @@ it may be the most prolific container engine. Container technology has an intere
 Containerisation is the technology of the week but specifically [Podman](https://podman.io), a popular alternative to Docker. Why? 
 Well, as we champion open ways of working and open source we have to accept that sometimes technologies that start off open and free can, 
 in their search for revenue to sustain the project, become more restrictive and expensive.
-I am not going to argue about the ethics around persuing revenue for open source projects and 
+I am not going to argue about the ethics around pursuing revenue for open source projects and 
 I do not necessarily think it is a deal breaker --devs have to eat ~~langoustines~~ too. If alternatives exist then they should be on our 
 [radar](https://www.thoughtworks.com/en-gb/radar).
 
-Podman is a containerisation engine from RedHat and is almost at feature parity with Docker with the addition of a notable imporvement. Podman uses rootless containers 
-which are more secure, and allow non root users to start containers with restricted priviledges.                                                                                                                               
+Podman is a containerisation engine from RedHat and is almost at feature parity with Docker with the addition of a notable improvement. Podman uses rootless containers 
+which are more secure, and allow non root users to start containers with restricted privileges.                                                                                                                               
 ### Installing and using Podman on macOS
 
-Podman is avaliable on macOS via the Homebrew package manager.
+Podman is available on macOS via the Homebrew package manager.
 
 ```bash
     $ brew install podman
@@ -99,7 +99,7 @@ like them to use Podman.
 
 For further instructions on how to install Podman on another OS please visit the website [podman.io](https://podman.io/getting-started/installation).
 
-## Alogorithm of the week
+## Algorithm of the week
 
 In the last digest, we looked at the RSA method for sharing secrets. This week we are looking at key exchange with the Diffie-Hellman algorithm, 
 created by [Whitfield-Diffie](https://en.wikipedia.org/wiki/Whitfield_Diffie) and [Martin Hellman](https://en.wikipedia.org/wiki/Martin_Hellman). I recently attended 
