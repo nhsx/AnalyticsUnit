@@ -48,7 +48,7 @@ As always, there is the option to mix and match mono and poly repos when managin
 
 ## Technology of the week
 
-So you want to monorepo all the things. May I introduce you to [Bazel](https://bazel.build], [Turborepo](https://turbo.build) and [NX](). We will briefly cover Bazel in this section. However, please explore the alternatives.
+So you want to monorepo all the things. May I introduce you to [Bazel](https://bazel.build), [Turborepo](https://turbo.build) and [NX](). We will briefly cover Bazel in this section. However, please explore the alternatives.
 
 Bazel allows you to manage the repo using configuration files and a command line tool. A project managed with Bazel can look as below:
 
