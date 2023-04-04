@@ -3,7 +3,7 @@ url: https://nhsx.github.io
 baseurl: /AnalyticsUnit
 title: NHS England DART
 description: Technical Store for Transparency
-email: analytics-unit@nhsx.nhs.uk
+email: england.tdau@nhs.net
 github_username: nhsx
 plugins:
   - jemoji
